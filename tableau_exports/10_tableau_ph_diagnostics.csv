@@ -1,0 +1,33 @@
+endpoint,model_type,term,spearman_rho,p_value,diagnostic
+Recurrence-Free Survival,Unadjusted,Lev vs Obs,0.4568544801939604,1.6433488810364485e-25,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Unadjusted,Lev+5FU vs Obs,-0.5720622424722137,4.9809665411228445e-42,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Lev vs Obs,0.3066832811243929,3.622743888658398e-11,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Lev+5FU vs Obs,-0.5600618454033277,3.452132051449272e-38,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Age per 10 years,-0.0068509660256416485,0.8852799669291822,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Male,-0.04953780855770882,0.29654099517176075,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Positive nodes,-0.061664662511025765,0.19364863120473244,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Obstruction,-0.02410402550759118,0.6116699195815296,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Perforation,0.7721228216421054,1.840234773569887e-89,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Adherence,0.6717725221932896,7.687337856651029e-60,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Surgery registration long,0.5594873281227634,4.25440822728448e-38,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Differ: Well vs Moderate,-0.6155026853823703,7.547668068025507e-48,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Differ: Poor vs Moderate,0.32878753145788475,1.0554771354924581e-12,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Extent: Submucosa vs Serosa,-0.9520645275217696,1.566028258238906e-230,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Extent: Muscle vs Serosa,-0.8110988411517727,1.801645577361484e-105,Schoenfeld residual vs log(event time) Spearman correlation
+Recurrence-Free Survival,Adjusted,Extent: Contiguous vs Serosa,0.6766953524698709,5.118487523504847e-61,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Unadjusted,Lev vs Obs,0.3328686613452422,3.716466677100128e-13,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Unadjusted,Lev+5FU vs Obs,-0.5797427590268269,6.065053276897892e-42,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Lev vs Obs,0.25380937478292254,9.533512065630426e-08,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Lev+5FU vs Obs,-0.5700560340207278,2.0135101479551274e-38,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Age per 10 years,-0.04341339818552646,0.36916296750973165,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Male,0.24286795762512192,3.431057431774413e-07,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Positive nodes,0.05606559410917097,0.24599612222274586,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Obstruction,0.015298779561514968,0.7517464963207966,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Perforation,0.4337049316710545,3.78496673847846e-21,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Adherence,0.40833825338425833,1.0400525454823995e-18,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Surgery registration long,0.1730758665574014,0.00031121840628149417,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Differ: Well vs Moderate,-0.42229722004695314,5.017668187304082e-20,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Differ: Poor vs Moderate,0.44655776061293523,1.8257932718272855e-22,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Extent: Submucosa vs Serosa,-0.9652684022076446,1.2841692415915538e-251,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Extent: Muscle vs Serosa,-0.6500645382721977,5.373538355364021e-53,Schoenfeld residual vs log(event time) Spearman correlation
+Overall Survival,Adjusted,Extent: Contiguous vs Serosa,0.22239790645968993,3.212189328386259e-06,Schoenfeld residual vs log(event time) Spearman correlation

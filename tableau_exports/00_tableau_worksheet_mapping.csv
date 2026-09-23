@@ -1,0 +1,13 @@
+sheet_number,worksheet,recommended_source_file
+1,Trial KPI Summary,03_tableau_kpi_summary.csv
+2,Treatment-Arm Distribution,01_tableau_patient_level.csv
+3,Age Distribution,01_tableau_patient_level.csv
+4,Missing-Data Profile,04_tableau_missing_data_profile.csv
+5,Sex by Treatment Group,01_tableau_patient_level.csv
+6,Tumour Differentiation,01_tableau_patient_level.csv
+7,Tumour Extent,01_tableau_patient_level.csv
+8,Positive Lymph Nodes,01_tableau_patient_level.csv
+9,Overall-Survival Curve,06_tableau_km_curves.csv
+10,Recurrence-Free Survival Curve,06_tableau_km_curves.csv
+11,Treatment Hazard Ratios,07_tableau_treatment_hazard_ratios.csv
+12,Subgroup Treatment Effects,08_tableau_subgroup_treatment_effects.csv

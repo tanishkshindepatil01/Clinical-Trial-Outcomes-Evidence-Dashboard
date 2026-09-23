@@ -1,0 +1,930 @@
+id,study,rx,sex,age,obstruct,perfor,adhere,nodes,differ,extent,surg,node4,recurrence_time_days,recurrence_event,death_time_days,death_event,sex_label,obstruct_label,perfor_label,adhere_label,surg_label,differ_label,extent_label,age_group,nodes_group,nodes_gt4_derived,node4_matches_derived,recurrence_status_label,death_status_label
+1,1,Lev+5FU,1,43,0,0,0,5.0,2.0,3,0,1,968,1,1521,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+2,1,Lev+5FU,1,63,0,0,0,1.0,2.0,3,0,0,3087,0,3087,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+3,1,Obs,0,71,0,0,1,7.0,2.0,2,0,1,542,1,963,1,Female,No,No,Yes,Short,Moderate,Muscle,65+,5+,1.0,1.0,Recurrence event,Death
+4,1,Lev+5FU,0,66,1,0,0,6.0,2.0,3,1,1,245,1,293,1,Female,Yes,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+5,1,Obs,1,69,0,0,0,22.0,2.0,3,1,1,523,1,659,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+6,1,Lev+5FU,0,57,0,0,0,9.0,2.0,3,0,1,904,1,1767,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+7,1,Lev,1,77,0,0,0,5.0,2.0,3,1,1,229,1,420,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+8,1,Obs,1,54,0,0,0,1.0,2.0,3,0,0,3192,0,3192,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+9,1,Lev,1,46,0,0,1,2.0,2.0,3,0,0,3173,0,3173,0,Male,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+10,1,Lev+5FU,0,68,0,0,0,1.0,2.0,3,1,0,3308,0,3308,0,Female,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+11,1,Lev,0,47,0,0,1,1.0,2.0,3,0,0,2908,0,2908,0,Female,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+12,1,Lev+5FU,1,52,0,0,0,2.0,3.0,3,1,0,3309,0,3309,0,Male,No,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+13,1,Obs,1,64,0,0,0,1.0,2.0,3,0,0,1130,1,2085,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+14,1,Lev,1,68,1,0,0,3.0,2.0,3,0,0,2231,1,2910,1,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+15,1,Obs,1,46,1,0,0,4.0,2.0,3,0,0,2754,0,2754,0,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+16,1,Obs,1,68,0,0,0,1.0,2.0,3,1,0,1323,1,3214,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+17,1,Lev,1,62,1,0,1,6.0,2.0,3,0,1,258,1,406,1,Male,Yes,No,Yes,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+18,1,Lev,1,79,1,0,0,1.0,2.0,3,1,0,389,1,522,1,Male,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+19,1,Lev+5FU,0,34,1,0,0,1.0,2.0,2,0,0,604,1,887,1,Female,Yes,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Recurrence event,Death
+20,1,Lev,0,50,0,0,1,1.0,2.0,3,0,0,3329,0,3329,0,Female,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+21,1,Obs,1,64,1,0,0,1.0,2.0,3,1,0,2789,0,2789,1,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Death
+22,1,Lev,1,56,1,0,0,4.0,2.0,3,1,0,527,1,739,1,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+23,1,Lev,0,61,0,0,0,4.0,2.0,3,0,0,348,1,709,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+24,1,Lev+5FU,0,50,0,0,0,1.0,2.0,2,0,0,2969,0,2969,0,Female,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+25,1,Lev+5FU,0,70,0,0,0,4.0,2.0,3,0,0,2889,0,2889,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+26,1,Obs,1,73,0,0,0,1.0,2.0,3,0,0,1759,1,1772,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+27,1,Obs,0,70,0,0,1,13.0,2.0,3,0,1,121,1,384,1,Female,No,No,Yes,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+28,1,Lev,0,68,0,0,0,1.0,2.0,3,0,0,290,1,968,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+29,1,Obs,0,56,1,0,0,6.0,3.0,3,0,1,157,1,218,1,Female,Yes,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+30,1,Lev,1,80,0,0,0,1.0,3.0,3,0,0,62,1,133,1,Male,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+31,1,Lev+5FU,0,64,0,0,0,1.0,2.0,1,0,0,3238,0,3238,0,Female,No,No,No,Short,Moderate,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+32,1,Lev+5FU,0,33,1,0,0,3.0,2.0,3,0,0,3019,0,3019,0,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+33,1,Obs,0,49,0,0,0,2.0,2.0,3,1,0,461,1,1745,1,Female,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+34,1,Obs,1,47,0,0,0,3.0,2.0,3,1,0,1749,1,2527,1,Male,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+35,1,Lev+5FU,0,56,0,0,0,1.0,2.0,3,1,0,593,1,1387,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+36,1,Lev+5FU,0,72,0,0,1,1.0,3.0,3,1,0,3024,0,3024,0,Female,No,No,Yes,Long,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+37,1,Obs,1,79,0,0,0,19.0,2.0,3,0,1,43,1,570,1,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+38,1,Obs,0,64,0,0,0,1.0,3.0,3,0,0,2815,0,2815,0,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+39,1,Lev,1,61,0,0,0,2.0,3.0,3,0,0,2901,0,2901,0,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+40,1,Lev,1,58,0,0,0,7.0,2.0,3,0,1,348,1,553,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+41,1,Lev+5FU,1,75,0,0,0,2.0,2.0,3,1,0,510,1,905,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+42,1,Obs,0,39,1,0,0,1.0,1.0,3,1,0,3030,0,3030,0,Female,Yes,No,No,Long,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+43,1,Obs,1,71,1,0,0,3.0,2.0,2,1,0,489,1,685,1,Male,Yes,No,No,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+44,1,Lev,0,58,1,0,0,2.0,2.0,3,0,0,2740,0,2740,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+45,1,Lev+5FU,1,40,0,0,0,1.0,1.0,3,1,0,2899,0,2899,0,Male,No,No,No,Long,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+46,1,Obs,0,63,0,1,0,2.0,2.0,3,0,0,2598,0,2598,0,Female,No,Yes,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+47,1,Lev+5FU,0,59,0,0,0,1.0,3.0,1,0,0,2840,0,2840,0,Female,No,No,No,Short,Poor,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+48,1,Lev,0,59,1,0,0,2.0,1.0,3,1,0,2802,0,2802,0,Female,Yes,No,No,Long,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+49,1,Lev+5FU,1,59,0,0,0,6.0,2.0,3,0,1,2781,0,2781,0,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+50,1,Lev,1,60,0,0,0,5.0,3.0,3,0,1,136,1,833,1,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+51,1,Obs,0,68,0,0,0,2.0,2.0,3,1,0,632,1,1290,1,Female,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+52,1,Lev+5FU,0,70,0,0,0,3.0,2.0,3,0,0,1233,1,1620,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+53,1,Obs,1,76,0,0,0,2.0,2.0,3,0,0,2765,0,2765,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+54,1,Lev,0,45,0,0,0,3.0,2.0,3,0,0,2708,0,2708,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+55,1,Lev+5FU,1,61,0,0,0,2.0,2.0,2,1,0,2737,0,2737,0,Male,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+56,1,Obs,1,76,0,0,0,3.0,1.0,3,0,0,352,1,1178,1,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+57,1,Lev,1,53,0,0,0,2.0,2.0,3,0,0,250,1,2765,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+58,1,Lev+5FU,0,63,0,0,0,5.0,2.0,3,1,1,2883,0,2883,0,Female,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+59,1,Obs,0,65,0,0,0,6.0,3.0,3,1,1,2679,0,2679,0,Female,No,No,No,Long,Poor,Serosa,65+,5+,1.0,1.0,Censored,Censored
+60,1,Obs,0,57,1,0,0,4.0,3.0,3,0,0,2925,0,2925,0,Female,Yes,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+61,1,Lev,1,80,0,1,0,4.0,2.0,3,1,0,176,1,472,1,Male,No,Yes,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+62,1,Lev,1,58,0,0,0,1.0,1.0,2,1,0,2772,0,2772,0,Male,No,No,No,Long,Well,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+63,1,Obs,0,53,0,0,0,15.0,3.0,3,0,1,173,1,474,1,Female,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+64,1,Lev,0,53,1,0,0,1.0,,3,0,0,2739,0,2739,0,Female,Yes,No,No,Short,Missing,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+65,1,Obs,0,71,0,0,0,1.0,1.0,3,0,0,72,1,365,1,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+66,1,Lev+5FU,0,66,0,0,0,2.0,2.0,3,0,0,2653,0,2653,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+67,1,Lev+5FU,1,49,0,0,0,6.0,3.0,3,0,1,2726,0,2726,0,Male,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Censored,Censored
+68,1,Obs,1,60,0,0,0,10.0,2.0,3,0,1,435,1,774,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+69,1,Obs,0,70,0,0,0,3.0,2.0,1,0,0,3078,0,3078,0,Female,No,No,No,Short,Moderate,Submucosa,65+,1–4,0.0,1.0,Censored,Censored
+70,1,Obs,0,40,0,0,0,2.0,2.0,3,1,0,1236,1,2133,1,Female,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+71,1,Lev+5FU,0,55,0,0,0,1.0,2.0,3,0,0,1786,1,2127,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+72,1,Lev+5FU,0,56,0,0,0,15.0,2.0,3,0,1,322,1,400,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+73,1,Lev+5FU,1,54,0,0,0,9.0,2.0,3,0,1,3185,0,3185,0,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+74,1,Obs,0,49,1,0,0,5.0,3.0,3,0,1,581,1,1237,1,Female,Yes,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+75,1,Lev,0,71,0,0,0,7.0,2.0,3,0,1,891,1,1219,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+76,1,Obs,0,67,0,0,0,4.0,2.0,3,0,0,3017,0,3017,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+77,1,Lev,0,68,0,0,0,5.0,2.0,3,1,1,505,1,806,1,Female,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+78,1,Lev+5FU,1,63,0,0,0,2.0,2.0,3,1,0,2985,0,2985,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+79,1,Lev,1,50,1,0,1,1.0,2.0,3,0,0,1895,1,2969,0,Male,Yes,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+80,1,Lev+5FU,0,45,0,0,0,7.0,2.0,2,0,1,1488,1,1995,1,Female,No,No,No,Short,Moderate,Muscle,<50,5+,1.0,1.0,Recurrence event,Death
+81,1,Lev,1,66,0,0,0,1.0,2.0,2,0,0,2958,0,2958,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+82,1,Obs,0,46,0,0,0,1.0,3.0,3,0,0,702,1,1133,1,Female,No,No,No,Short,Poor,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+83,1,Lev,1,70,0,0,0,3.0,,2,0,0,1548,0,1548,1,Male,No,No,No,Short,Missing,Muscle,65+,1–4,0.0,1.0,Censored,Death
+84,1,Lev,1,63,1,0,0,2.0,2.0,2,0,0,3085,0,3085,0,Male,Yes,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+85,1,Lev+5FU,1,45,0,0,0,8.0,3.0,3,0,1,256,1,736,1,Male,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+86,1,Lev,0,49,0,0,0,1.0,2.0,3,0,0,2789,0,2789,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+87,1,Lev,0,62,0,0,0,2.0,2.0,2,0,0,3325,0,3325,0,Female,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+88,1,Obs,1,59,0,0,0,4.0,2.0,3,0,0,127,1,381,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+89,1,Lev+5FU,0,80,0,0,0,4.0,1.0,3,0,0,2724,0,2724,0,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+90,1,Lev,1,73,1,0,0,4.0,,3,0,0,797,1,997,1,Male,Yes,No,No,Short,Missing,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+91,1,Obs,1,46,0,0,0,11.0,2.0,3,0,1,304,1,413,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+92,1,Lev,1,64,0,0,0,4.0,2.0,3,0,0,498,1,708,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+93,1,Lev,1,45,0,0,0,9.0,2.0,3,0,1,2765,0,2765,0,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+94,1,Lev+5FU,0,26,0,0,1,,2.0,4,1,1,2869,0,2869,0,Female,No,No,Yes,Long,Moderate,Contiguous structures,<50,Missing,,,Censored,Censored
+95,1,Lev+5FU,1,66,0,0,0,1.0,2.0,3,0,0,2918,0,2918,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+96,1,Lev,1,67,0,0,1,2.0,2.0,4,1,0,2458,0,2458,1,Male,No,No,Yes,Long,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Censored,Death
+97,1,Obs,0,65,0,0,0,20.0,2.0,4,0,1,185,1,459,1,Female,No,No,No,Short,Moderate,Contiguous structures,65+,5+,1.0,1.0,Recurrence event,Death
+98,1,Lev+5FU,1,74,0,0,1,1.0,2.0,3,0,0,2318,0,2318,1,Male,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+99,1,Lev,1,71,0,0,1,,2.0,4,0,1,219,1,569,1,Male,No,No,Yes,Short,Moderate,Contiguous structures,65+,Missing,,,Recurrence event,Death
+100,1,Obs,0,58,0,0,1,8.0,2.0,2,0,1,1446,1,2077,1,Female,No,No,Yes,Short,Moderate,Muscle,50–64,5+,1.0,1.0,Recurrence event,Death
+101,1,Obs,1,59,0,0,0,6.0,2.0,3,0,1,349,1,1216,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+102,1,Lev,1,61,0,0,0,5.0,3.0,3,0,1,147,1,171,1,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+103,1,Lev+5FU,1,49,0,0,0,2.0,2.0,3,0,0,448,1,712,1,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+104,1,Lev+5FU,0,50,0,0,0,6.0,2.0,3,0,1,260,1,614,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+105,1,Obs,0,75,0,0,0,1.0,2.0,3,0,0,1057,1,2849,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+106,1,Obs,1,68,0,0,0,3.0,3.0,3,0,0,835,1,1530,1,Male,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+107,1,Lev,0,60,0,0,1,10.0,2.0,3,1,1,204,1,402,1,Female,No,No,Yes,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+108,1,Lev+5FU,0,65,0,0,1,2.0,2.0,3,0,0,853,1,1511,1,Female,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+109,1,Lev,0,74,0,0,0,5.0,2.0,3,0,1,2828,0,2828,0,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+110,1,Lev+5FU,0,52,0,0,0,3.0,3.0,3,1,0,23,0,23,1,Female,No,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Death
+111,1,Lev+5FU,1,64,0,0,1,6.0,2.0,3,0,1,2941,0,2941,0,Male,No,No,Yes,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+112,1,Lev,1,47,0,0,1,1.0,2.0,3,0,0,548,1,755,1,Male,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+113,1,Obs,0,45,0,0,0,1.0,2.0,1,0,0,2815,0,2815,0,Female,No,No,No,Short,Moderate,Submucosa,<50,1–4,0.0,1.0,Censored,Censored
+114,1,Obs,1,61,1,0,1,5.0,3.0,3,0,1,185,1,761,1,Male,Yes,No,Yes,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+115,1,Lev,1,53,0,0,0,2.0,3.0,3,0,0,638,1,1839,1,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+116,1,Obs,1,60,1,0,0,5.0,2.0,3,1,1,912,1,2351,1,Male,Yes,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+117,1,Lev+5FU,0,60,0,0,0,1.0,2.0,3,0,0,2760,0,2760,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+118,1,Lev,0,51,0,0,0,5.0,2.0,3,0,1,2951,0,2951,0,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+119,1,Lev+5FU,0,60,0,0,1,1.0,2.0,3,1,0,2820,0,2820,0,Female,No,No,Yes,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+120,1,Obs,0,64,0,0,0,1.0,2.0,3,0,0,593,1,1327,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+121,1,Lev+5FU,0,52,0,0,0,1.0,2.0,3,0,0,2678,0,2678,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+122,1,Lev,0,65,0,0,0,2.0,3.0,3,0,0,176,1,226,1,Female,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+123,1,Lev+5FU,0,70,0,0,0,1.0,2.0,3,1,0,2913,0,2913,0,Female,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+124,1,Obs,1,55,0,0,0,2.0,2.0,3,1,0,2862,0,2862,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+125,1,Lev+5FU,1,71,0,0,0,5.0,3.0,3,0,1,454,1,454,1,Male,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+126,1,Obs,1,30,0,0,0,1.0,2.0,2,0,0,2743,0,2743,0,Male,No,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+127,1,Obs,0,40,0,0,0,3.0,2.0,3,0,0,1020,1,1679,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+128,1,Obs,1,31,1,0,0,11.0,3.0,3,0,1,245,1,924,1,Male,Yes,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+129,1,Obs,1,53,0,0,0,1.0,2.0,2,0,0,543,1,721,1,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Recurrence event,Death
+130,1,Obs,1,67,0,0,0,1.0,2.0,3,0,0,263,1,709,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+131,1,Lev+5FU,0,58,0,0,0,1.0,2.0,3,0,0,711,1,961,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+132,1,Lev+5FU,0,79,1,0,0,2.0,3.0,3,0,0,326,0,326,1,Female,Yes,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Death
+133,1,Lev,0,55,0,0,0,1.0,3.0,2,1,0,2703,0,2703,0,Female,No,No,No,Long,Poor,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+134,1,Obs,0,63,0,0,1,2.0,2.0,3,0,0,86,1,289,1,Female,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+135,1,Lev+5FU,1,55,1,0,0,2.0,2.0,3,1,0,2905,0,2905,0,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+136,1,Lev,1,42,1,0,0,5.0,2.0,3,0,1,80,1,206,1,Male,Yes,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+137,1,Obs,1,56,0,0,0,1.0,2.0,3,1,0,2618,0,2618,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+138,1,Lev,0,64,0,0,0,8.0,2.0,3,0,1,98,1,283,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+139,1,Lev,1,55,1,0,0,2.0,2.0,3,0,0,2018,1,2718,1,Male,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+140,1,Obs,0,25,1,0,0,7.0,2.0,3,0,1,101,1,2826,0,Female,Yes,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Censored
+141,1,Lev+5FU,1,59,0,0,0,1.0,2.0,3,0,0,2916,0,2916,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+142,1,Lev,1,28,0,0,0,9.0,3.0,3,0,1,246,1,499,1,Male,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+143,1,Lev+5FU,0,49,0,0,0,,1.0,3,0,0,2950,0,2950,0,Female,No,No,No,Short,Well,Serosa,<50,Missing,,,Censored,Censored
+144,1,Obs,0,52,0,0,0,1.0,2.0,1,0,0,2899,0,2899,0,Female,No,No,No,Short,Moderate,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+145,1,Obs,0,64,0,0,0,5.0,3.0,3,1,1,98,1,673,1,Female,No,No,No,Long,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+146,1,Obs,0,33,1,0,1,1.0,1.0,3,0,0,3000,0,3000,0,Female,Yes,No,Yes,Short,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+147,1,Obs,1,76,0,0,0,1.0,2.0,3,1,0,1475,1,2284,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+148,1,Lev,1,38,0,0,0,2.0,1.0,3,0,0,191,1,362,1,Male,No,No,No,Short,Well,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+149,1,Lev,0,53,1,1,0,1.0,2.0,3,0,0,335,1,2152,1,Female,Yes,Yes,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+150,1,Obs,0,72,1,0,0,2.0,2.0,3,1,0,2562,0,2562,0,Female,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+151,1,Lev,1,46,0,0,0,1.0,2.0,3,0,0,2730,0,2730,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+152,1,Lev+5FU,0,69,0,0,0,13.0,2.0,3,0,1,443,1,802,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+153,1,Obs,1,43,1,0,0,0.0,3.0,3,1,0,772,1,1166,1,Male,Yes,No,No,Long,Poor,Serosa,<50,0,0.0,1.0,Recurrence event,Death
+154,1,Lev+5FU,1,72,1,0,1,2.0,2.0,3,0,0,918,1,1193,1,Male,Yes,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+155,1,Lev+5FU,1,73,1,0,0,2.0,2.0,3,1,0,45,0,45,1,Male,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+156,1,Obs,1,68,0,0,0,3.0,2.0,3,0,0,2577,0,2577,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+157,1,Obs,0,52,0,1,0,6.0,1.0,3,0,1,547,1,1136,1,Female,No,Yes,No,Short,Well,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+158,1,Lev,0,73,1,0,0,2.0,2.0,3,0,0,1211,1,2497,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+159,1,Lev+5FU,1,66,1,0,0,1.0,2.0,3,0,0,2648,0,2648,0,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+160,1,Obs,0,75,0,0,0,2.0,3.0,3,0,0,2458,0,2458,0,Female,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+161,1,Lev,1,43,1,0,0,6.0,,3,0,1,653,1,1135,1,Male,Yes,No,No,Short,Missing,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+162,1,Lev+5FU,0,57,0,0,0,1.0,2.0,3,0,0,485,1,580,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+163,1,Obs,1,74,1,0,0,6.0,2.0,3,1,1,485,0,485,1,Male,Yes,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Death
+164,1,Lev,0,67,0,0,0,1.0,2.0,3,0,0,2656,0,2656,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+165,1,Lev+5FU,0,66,0,0,1,2.0,2.0,3,1,0,526,1,806,1,Female,No,No,Yes,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+166,1,Obs,1,57,1,0,0,3.0,2.0,3,0,0,2435,0,2435,0,Male,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+167,1,Lev+5FU,0,81,0,0,0,3.0,2.0,3,0,0,392,1,1439,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+168,1,Obs,1,50,0,0,0,4.0,3.0,3,1,0,173,1,717,1,Male,No,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+169,1,Lev,1,62,1,1,0,2.0,2.0,3,0,0,2568,0,2568,0,Male,Yes,Yes,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+170,1,Lev+5FU,0,48,0,0,0,4.0,1.0,3,0,0,2631,0,2631,0,Female,No,No,No,Short,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+171,1,Lev+5FU,1,45,0,0,0,2.0,2.0,2,0,0,1474,0,1474,0,Male,No,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+172,1,Lev,1,46,0,0,1,2.0,2.0,3,1,0,668,1,2593,1,Male,No,No,Yes,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+173,1,Lev+5FU,0,72,0,0,0,2.0,2.0,3,1,0,1550,0,1550,1,Female,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+174,1,Obs,0,55,0,0,0,4.0,2.0,3,0,0,165,1,670,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+175,1,Lev,1,67,1,0,0,1.0,2.0,3,1,0,121,1,430,1,Male,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+176,1,Lev+5FU,0,41,0,0,0,2.0,2.0,3,1,0,2821,0,2821,0,Female,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+177,1,Lev+5FU,1,56,0,0,0,2.0,2.0,1,0,0,2672,0,2672,0,Male,No,No,No,Short,Moderate,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+178,1,Lev+5FU,1,50,0,0,0,4.0,2.0,1,0,0,2699,0,2699,0,Male,No,No,No,Short,Moderate,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+179,1,Lev+5FU,0,65,0,0,0,1.0,1.0,2,0,0,2927,0,2927,0,Female,No,No,No,Short,Well,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+180,1,Lev+5FU,1,74,0,0,1,1.0,2.0,3,0,0,622,1,993,1,Male,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+181,1,Obs,0,74,0,0,0,2.0,2.0,3,0,0,2580,0,2580,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+182,1,Obs,0,58,0,0,0,4.0,2.0,3,0,0,2621,0,2621,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+183,1,Lev,0,56,0,0,0,4.0,3.0,3,0,0,2779,0,2779,0,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+184,1,Obs,0,75,0,0,0,1.0,2.0,2,0,0,2794,0,2794,0,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+185,1,Lev+5FU,1,67,0,0,0,4.0,2.0,3,0,0,2656,0,2656,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+186,1,Lev,0,58,0,0,0,6.0,1.0,3,1,1,2513,0,2513,0,Female,No,No,No,Long,Well,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+187,1,Lev+5FU,0,58,0,0,0,2.0,2.0,3,1,0,2488,0,2488,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+188,1,Lev,1,41,0,0,0,33.0,3.0,3,0,1,900,1,1112,1,Male,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+189,1,Lev,1,72,0,0,0,,2.0,3,0,1,2618,0,2618,0,Male,No,No,No,Short,Moderate,Serosa,65+,Missing,,,Censored,Censored
+190,1,Lev,1,48,0,0,1,2.0,,3,0,0,380,1,795,1,Male,No,No,Yes,Short,Missing,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+191,1,Lev+5FU,0,69,0,0,0,1.0,2.0,3,0,0,157,1,363,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+192,1,Obs,1,57,1,0,1,1.0,2.0,3,0,0,360,1,949,1,Male,Yes,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+193,1,Lev+5FU,0,45,1,0,1,1.0,2.0,3,1,0,68,1,127,1,Female,Yes,No,Yes,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+194,1,Lev+5FU,0,76,0,0,0,4.0,2.0,3,0,0,2871,0,2871,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+195,1,Obs,1,59,0,0,1,2.0,2.0,3,0,0,2558,0,2558,0,Male,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+196,1,Obs,0,66,0,0,0,1.0,2.0,3,0,0,1981,1,2083,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+197,1,Obs,0,65,0,0,0,1.0,3.0,2,0,0,2747,0,2747,0,Female,No,No,No,Short,Poor,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+198,1,Lev,1,69,0,0,0,1.0,1.0,3,0,0,931,1,1105,1,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+199,1,Lev+5FU,0,32,0,0,0,,3.0,3,1,1,183,1,490,1,Female,No,No,No,Long,Poor,Serosa,<50,Missing,,,Recurrence event,Death
+200,1,Obs,0,56,0,0,0,1.0,,2,1,0,2507,0,2507,0,Female,No,No,No,Long,Missing,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+201,1,Lev,1,71,0,0,0,1.0,1.0,3,1,0,356,1,961,1,Male,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+202,1,Lev,1,75,0,0,0,8.0,,3,1,1,341,1,1879,1,Male,No,No,No,Long,Missing,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+203,1,Lev+5FU,1,58,0,0,0,7.0,3.0,3,0,1,2592,0,2592,0,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+204,1,Obs,0,40,0,0,0,4.0,2.0,3,0,0,230,1,2552,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+205,1,Lev+5FU,0,39,0,0,0,2.0,1.0,1,0,0,2474,0,2474,0,Female,No,No,No,Short,Well,Submucosa,<50,1–4,0.0,1.0,Censored,Censored
+206,1,Lev,0,42,0,0,0,4.0,2.0,3,0,0,2349,0,2349,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+207,1,Lev+5FU,0,53,0,0,0,4.0,1.0,1,0,0,1037,1,2835,0,Female,No,No,No,Short,Well,Submucosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+208,1,Obs,1,43,0,0,0,2.0,2.0,3,1,0,2761,0,2761,0,Male,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+209,1,Obs,0,51,0,0,0,4.0,2.0,3,1,0,279,1,411,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+210,1,Lev,1,77,0,0,0,2.0,1.0,3,0,0,2720,0,2720,0,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+211,1,Lev,1,67,1,0,0,1.0,2.0,3,0,0,2495,0,2495,0,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+212,1,Obs,1,41,0,0,0,7.0,2.0,3,0,1,45,1,462,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+213,1,Lev+5FU,1,63,1,1,1,2.0,3.0,4,1,0,2497,0,2497,0,Male,Yes,Yes,Yes,Long,Poor,Contiguous structures,50–64,1–4,0.0,1.0,Censored,Censored
+214,1,Lev,1,63,0,0,1,3.0,2.0,2,0,0,2343,0,2343,0,Male,No,No,Yes,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+215,1,Lev+5FU,0,63,0,0,0,6.0,2.0,3,0,1,2630,0,2630,0,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+216,1,Lev+5FU,0,58,1,0,0,8.0,2.0,3,0,1,2461,0,2461,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+217,1,Lev+5FU,0,67,0,0,0,4.0,2.0,4,0,0,2747,0,2747,0,Female,No,No,No,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Censored,Censored
+218,1,Lev+5FU,1,55,1,0,0,7.0,2.0,3,0,1,1876,1,2482,1,Male,Yes,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+219,1,Lev,1,63,1,0,0,5.0,3.0,3,0,1,230,1,580,1,Male,Yes,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+220,1,Lev,1,77,0,0,1,1.0,2.0,3,0,0,1013,1,1215,1,Male,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+221,1,Lev,1,43,1,1,1,4.0,3.0,3,1,0,2525,0,2525,0,Male,Yes,Yes,Yes,Long,Poor,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+222,1,Lev+5FU,0,78,0,0,0,2.0,2.0,2,0,0,2842,0,2842,0,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+223,1,Obs,0,51,0,0,1,5.0,2.0,3,1,1,229,1,1272,1,Female,No,No,Yes,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+224,1,Obs,1,67,1,0,0,1.0,2.0,3,0,0,228,1,438,1,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+225,1,Lev,1,66,0,0,0,1.0,2.0,3,0,0,2423,0,2423,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+226,1,Obs,0,64,0,0,1,1.0,2.0,4,1,0,599,0,599,1,Female,No,No,Yes,Long,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Censored,Death
+227,1,Obs,0,75,1,0,1,1.0,2.0,3,0,0,726,1,2706,0,Female,Yes,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+228,1,Lev,1,53,0,0,0,1.0,2.0,3,0,0,1976,1,2683,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+229,1,Lev,1,48,1,1,0,2.0,2.0,3,0,0,1026,1,2723,0,Male,Yes,Yes,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+230,1,Obs,0,59,0,0,1,1.0,2.0,4,0,0,480,1,1230,1,Female,No,No,Yes,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+231,1,Obs,0,60,0,0,0,1.0,2.0,3,1,0,2035,1,2731,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+232,1,Obs,1,42,0,0,0,2.0,2.0,3,0,0,2313,0,2313,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+233,1,Lev,1,60,0,0,0,1.0,2.0,2,1,0,2484,0,2484,0,Male,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+234,1,Lev+5FU,1,58,0,0,0,1.0,1.0,3,0,0,2754,0,2754,0,Male,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+235,1,Lev+5FU,1,59,0,0,0,2.0,2.0,2,0,0,2725,0,2725,1,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Death
+236,1,Obs,0,70,0,0,0,2.0,2.0,3,0,0,264,1,1295,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+237,1,Lev+5FU,0,75,0,0,0,3.0,2.0,3,0,0,2506,0,2506,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+238,1,Lev+5FU,0,73,0,0,0,3.0,2.0,3,0,0,2713,0,2713,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+239,1,Obs,1,76,0,0,0,1.0,2.0,3,0,0,2695,1,2695,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+240,1,Lev+5FU,0,68,0,0,0,3.0,2.0,3,0,0,1024,1,1276,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+241,1,Lev,1,61,0,0,0,2.0,2.0,4,0,0,2600,0,2600,0,Male,No,No,No,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Censored,Censored
+242,1,Lev+5FU,1,76,0,0,0,1.0,2.0,2,0,0,2352,0,2352,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+243,1,Lev+5FU,0,56,0,1,1,3.0,2.0,3,1,0,649,1,2775,0,Female,No,Yes,Yes,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+244,1,Lev,0,55,1,0,0,2.0,,3,0,0,2442,0,2442,0,Female,Yes,No,No,Short,Missing,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+245,1,Obs,0,60,1,0,1,4.0,3.0,3,0,0,36,1,437,1,Female,Yes,No,Yes,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+246,1,Lev,1,72,0,0,0,9.0,2.0,3,1,1,1561,1,1709,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+247,1,Lev+5FU,0,74,1,0,0,11.0,2.0,3,0,1,1607,0,1607,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Death
+248,1,Lev+5FU,0,62,0,0,0,3.0,2.0,3,1,0,805,1,1637,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+249,1,Lev,0,76,0,0,0,1.0,1.0,3,0,0,654,1,1117,1,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+250,1,Lev+5FU,1,72,0,0,0,2.0,2.0,3,1,0,2732,0,2732,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+251,1,Lev,1,57,0,0,0,2.0,3.0,3,0,0,196,1,222,1,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+252,1,Obs,0,39,0,0,0,1.0,2.0,4,0,0,139,1,2688,0,Female,No,No,No,Short,Moderate,Contiguous structures,<50,1–4,0.0,1.0,Recurrence event,Censored
+253,1,Lev+5FU,1,61,0,0,0,1.0,2.0,3,0,0,2520,0,2520,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+254,1,Obs,0,62,0,0,0,5.0,3.0,3,0,1,221,1,595,1,Female,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+255,1,Lev,1,70,0,0,0,2.0,2.0,3,1,0,183,1,343,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+256,1,Obs,0,70,0,0,0,5.0,2.0,3,0,0,496,1,874,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,0.0,Recurrence event,Death
+257,1,Lev,0,57,1,0,0,8.0,2.0,3,0,1,77,1,232,1,Female,Yes,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+258,1,Lev,1,65,0,0,0,3.0,2.0,2,0,0,2558,0,2558,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+259,1,Lev,0,65,0,0,0,1.0,2.0,3,0,0,2711,0,2711,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+260,1,Obs,0,71,0,0,0,15.0,2.0,3,0,1,79,1,113,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+261,1,Lev,0,70,1,0,0,3.0,2.0,3,0,0,290,1,643,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+262,1,Obs,0,36,0,0,0,1.0,2.0,3,1,0,2413,0,2413,0,Female,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+263,1,Lev,1,48,0,0,0,2.0,2.0,1,0,0,2509,0,2509,0,Male,No,No,No,Short,Moderate,Submucosa,<50,1–4,0.0,1.0,Censored,Censored
+264,1,Lev,1,53,0,0,0,1.0,1.0,3,0,0,2356,0,2356,0,Male,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+265,1,Lev+5FU,1,54,0,0,0,3.0,2.0,3,1,0,1025,1,1279,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+266,1,Lev,1,58,0,0,0,3.0,1.0,3,0,0,938,0,938,1,Male,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Death
+267,1,Obs,1,67,0,0,0,3.0,2.0,3,0,0,2761,0,2761,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+268,1,Lev,1,59,1,0,0,2.0,2.0,3,1,0,2012,1,2386,0,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+269,1,Obs,0,67,0,0,1,4.0,2.0,3,0,1,80,1,433,1,Female,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,0.0,Recurrence event,Death
+270,1,Lev+5FU,0,60,1,0,0,1.0,3.0,3,1,0,2445,0,2445,0,Female,Yes,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+271,1,Lev,0,70,0,0,0,1.0,2.0,2,0,0,2280,0,2280,0,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+272,1,Obs,1,76,0,0,0,3.0,1.0,3,0,0,291,1,311,1,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+273,1,Lev+5FU,1,60,1,0,0,1.0,1.0,3,0,0,422,1,977,1,Male,Yes,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+274,1,Obs,0,67,1,0,0,12.0,1.0,3,0,1,561,1,833,1,Female,Yes,No,No,Short,Well,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+275,1,Lev,1,53,0,0,0,3.0,2.0,3,0,0,262,1,582,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+276,1,Lev+5FU,0,76,0,0,0,1.0,1.0,3,0,0,2541,0,2541,0,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+277,1,Obs,1,74,0,0,0,2.0,2.0,3,1,0,238,1,238,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+278,1,Obs,0,56,1,0,0,6.0,2.0,4,0,1,2257,0,2257,1,Female,Yes,No,No,Short,Moderate,Contiguous structures,50–64,5+,1.0,1.0,Censored,Death
+279,1,Lev,0,65,0,0,0,1.0,2.0,2,0,0,2501,0,2501,0,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+280,1,Lev+5FU,1,63,0,0,0,2.0,2.0,3,1,0,1122,1,1798,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+281,1,Obs,1,56,0,0,0,2.0,2.0,3,0,0,803,1,883,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+282,1,Lev,0,70,0,0,1,4.0,3.0,3,0,0,2548,0,2548,0,Female,No,No,Yes,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+283,1,Lev+5FU,0,48,0,0,0,9.0,2.0,3,0,1,2527,0,2527,0,Female,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+284,1,Lev,1,45,1,0,0,2.0,2.0,3,0,0,2263,0,2263,0,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+285,1,Lev,0,68,0,0,0,8.0,2.0,3,0,1,185,1,706,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+286,1,Lev,0,57,0,0,0,1.0,2.0,2,0,0,2588,0,2588,0,Female,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+287,1,Lev+5FU,1,70,0,0,0,1.0,2.0,2,1,0,2074,1,2542,1,Male,No,No,No,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+288,1,Lev+5FU,1,39,0,0,0,1.0,2.0,3,0,0,1279,0,1279,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+289,1,Obs,1,46,0,0,1,1.0,3.0,4,0,0,437,1,1304,1,Male,No,No,Yes,Short,Poor,Contiguous structures,<50,1–4,0.0,1.0,Recurrence event,Death
+290,1,Obs,0,77,1,0,0,4.0,2.0,3,0,0,2324,0,2324,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+291,1,Lev+5FU,1,59,1,0,0,1.0,1.0,3,0,0,2488,0,2488,0,Male,Yes,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+292,1,Lev,0,58,0,0,0,1.0,2.0,3,1,0,2628,0,2628,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+293,1,Obs,1,56,0,0,0,8.0,2.0,3,1,1,2288,1,2800,0,Male,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Censored
+294,1,Lev+5FU,1,68,0,0,0,2.0,,3,0,0,2456,0,2456,0,Male,No,No,No,Short,Missing,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+295,1,Obs,0,57,0,1,1,1.0,2.0,3,0,0,2503,0,2503,0,Female,No,Yes,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+296,1,Lev+5FU,0,44,0,0,0,3.0,2.0,3,0,0,431,1,1446,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+297,1,Lev+5FU,1,56,0,0,1,3.0,2.0,3,0,0,497,1,641,1,Male,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+298,1,Obs,1,67,0,0,0,4.0,2.0,3,0,0,1042,1,1788,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+299,1,Lev+5FU,1,62,0,0,0,6.0,2.0,2,0,1,2304,0,2304,0,Male,No,No,No,Short,Moderate,Muscle,50–64,5+,1.0,1.0,Censored,Censored
+300,1,Lev,0,68,0,0,0,7.0,2.0,3,0,1,697,1,944,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+301,1,Lev,1,61,0,0,0,2.0,2.0,2,1,0,2679,0,2679,0,Male,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+302,1,Lev,0,44,1,0,0,5.0,2.0,3,1,1,286,1,559,1,Female,Yes,No,No,Long,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+303,1,Lev,0,52,0,0,0,7.0,2.0,3,1,1,578,1,2663,0,Female,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Censored
+304,1,Lev,1,51,1,0,0,1.0,3.0,3,0,1,279,1,647,1,Male,Yes,No,No,Short,Poor,Serosa,50–64,1–4,0.0,0.0,Recurrence event,Death
+305,1,Obs,0,59,0,0,0,9.0,2.0,3,0,1,2697,0,2697,0,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+306,1,Lev+5FU,1,61,0,0,0,1.0,3.0,3,0,0,2538,0,2538,0,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+307,1,Obs,0,57,0,0,0,2.0,3.0,3,1,0,2219,0,2219,0,Female,No,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+308,1,Lev+5FU,1,65,0,0,0,1.0,2.0,3,1,0,303,1,2487,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+309,1,Lev,0,73,1,0,0,1.0,2.0,3,0,0,2709,0,2709,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+310,1,Obs,0,69,0,0,0,6.0,3.0,3,0,1,700,1,840,1,Female,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+311,1,Lev+5FU,1,63,0,0,0,1.0,2.0,3,1,0,2267,0,2267,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+312,1,Lev,1,75,0,0,0,2.0,2.0,2,0,0,2444,0,2444,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+313,1,Lev,0,64,0,0,0,5.0,1.0,3,0,1,2393,0,2393,0,Female,No,No,No,Short,Well,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+314,1,Obs,0,56,0,0,0,1.0,1.0,1,0,0,2237,0,2237,0,Female,No,No,No,Short,Well,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+315,1,Lev,1,69,0,0,0,2.0,2.0,3,0,0,2915,0,2915,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+316,1,Lev,0,64,0,0,0,2.0,2.0,3,0,0,325,1,2467,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+317,1,Lev,0,74,1,0,0,2.0,2.0,3,0,0,218,1,1092,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+318,1,Lev,1,72,0,0,0,4.0,2.0,2,1,0,2726,0,2726,0,Male,No,No,No,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+319,1,Lev,1,58,1,0,0,9.0,2.0,3,1,0,2764,0,2764,0,Male,Yes,No,No,Long,Moderate,Serosa,50–64,5+,1.0,0.0,Censored,Censored
+320,1,Lev+5FU,0,74,0,0,1,15.0,3.0,4,0,1,2592,0,2592,0,Female,No,No,Yes,Short,Poor,Contiguous structures,65+,5+,1.0,1.0,Censored,Censored
+321,1,Obs,0,61,0,0,0,2.0,1.0,2,0,0,2730,0,2730,0,Female,No,No,No,Short,Well,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+322,1,Obs,0,74,0,0,0,1.0,2.0,2,0,0,1274,1,2287,1,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+323,1,Lev+5FU,1,64,0,0,0,5.0,2.0,3,0,1,2117,0,2117,0,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+324,1,Lev+5FU,0,71,0,0,0,20.0,2.0,3,0,1,1668,1,1668,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+325,1,Obs,0,66,0,0,1,1.0,,4,0,0,118,1,528,1,Female,No,No,Yes,Short,Missing,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Death
+326,1,Obs,0,53,1,0,0,2.0,1.0,3,1,0,2651,0,2651,0,Female,Yes,No,No,Long,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+327,1,Lev,0,76,1,0,0,1.0,2.0,3,1,0,2676,0,2676,0,Female,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+328,1,Lev,0,75,1,0,1,3.0,2.0,2,1,0,1471,1,1885,1,Female,Yes,No,Yes,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+329,1,Lev+5FU,1,64,0,0,0,3.0,,3,0,0,2350,0,2350,0,Male,No,No,No,Short,Missing,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+330,1,Lev,1,65,0,0,0,8.0,2.0,3,1,1,216,1,475,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+331,1,Obs,0,57,0,0,0,5.0,2.0,3,1,1,384,1,1246,1,Female,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+332,1,Lev,1,65,0,0,1,1.0,3.0,3,0,0,2204,0,2204,0,Male,No,No,Yes,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+333,1,Obs,1,53,0,0,0,2.0,2.0,4,0,0,2716,0,2716,0,Male,No,No,No,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Censored,Censored
+334,1,Lev,1,74,0,0,0,4.0,2.0,3,0,0,28,1,797,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+335,1,Lev+5FU,1,74,0,0,0,1.0,2.0,3,0,0,2527,0,2527,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+336,1,Lev+5FU,0,74,0,0,1,1.0,3.0,3,0,0,1142,1,2021,1,Female,No,No,Yes,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+337,1,Lev+5FU,0,48,0,0,0,6.0,2.0,3,0,1,215,1,498,1,Female,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+338,1,Lev,1,58,0,0,0,,3.0,3,0,1,174,1,885,1,Male,No,No,No,Short,Poor,Serosa,50–64,Missing,,,Recurrence event,Death
+339,1,Lev+5FU,0,74,0,0,0,3.0,2.0,3,0,0,657,1,802,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+340,1,Lev+5FU,0,71,0,0,0,1.0,2.0,3,1,0,2674,0,2674,0,Female,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+341,1,Obs,0,54,0,0,0,2.0,2.0,3,1,0,143,1,743,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+342,1,Lev+5FU,1,80,0,0,0,4.0,2.0,2,1,0,2517,0,2517,0,Male,No,No,No,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+343,1,Lev,1,70,0,0,1,8.0,2.0,3,1,1,105,1,349,1,Male,No,No,Yes,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+344,1,Lev+5FU,1,70,1,0,0,1.0,2.0,3,0,0,2723,0,2723,0,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+345,1,Obs,1,70,0,0,0,1.0,3.0,3,1,0,308,1,775,1,Male,No,No,No,Long,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+346,1,Obs,1,71,0,0,0,4.0,2.0,3,0,0,2326,0,2326,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+347,1,Obs,1,59,0,0,0,2.0,2.0,3,0,0,855,1,1134,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+348,1,Lev,1,47,0,0,0,2.0,,3,1,0,330,1,602,1,Male,No,No,No,Long,Missing,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+349,1,Lev,1,63,0,0,0,2.0,3.0,3,0,0,2547,0,2547,0,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+350,1,Lev,0,69,0,0,0,7.0,2.0,3,0,1,370,1,940,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+351,1,Lev+5FU,0,73,0,0,0,1.0,2.0,3,0,0,2496,0,2496,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+352,1,Obs,1,67,0,0,0,1.0,2.0,3,0,0,2628,0,2628,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+353,1,Lev+5FU,0,55,0,0,0,1.0,2.0,3,0,0,2353,0,2353,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+354,1,Obs,1,45,0,0,0,2.0,2.0,3,1,0,2184,0,2184,0,Male,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+355,1,Lev+5FU,0,78,1,0,0,3.0,2.0,3,1,0,2219,0,2219,0,Female,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+356,1,Lev,1,80,0,0,0,3.0,2.0,3,0,0,179,1,191,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+357,1,Obs,1,55,0,0,0,8.0,2.0,3,0,1,421,0,421,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Death
+358,1,Lev+5FU,0,64,1,0,0,,2.0,3,0,1,2362,0,2362,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,Missing,,,Censored,Censored
+359,1,Lev,0,60,0,1,0,10.0,2.0,3,1,1,146,1,952,1,Female,No,Yes,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+360,1,Lev+5FU,0,74,0,0,0,5.0,2.0,3,1,1,261,1,911,1,Female,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+361,1,Lev,0,61,0,0,0,1.0,2.0,3,0,0,440,1,1851,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+362,1,Obs,1,64,0,0,0,4.0,2.0,2,0,0,2423,0,2423,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+363,1,Obs,0,48,0,0,1,1.0,3.0,3,1,0,189,1,464,1,Female,No,No,Yes,Long,Poor,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+364,1,Lev,1,76,0,0,0,2.0,2.0,3,0,0,191,1,443,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+365,1,Lev+5FU,0,76,0,0,0,,3.0,3,0,1,186,1,186,1,Female,No,No,No,Short,Poor,Serosa,65+,Missing,,,Recurrence event,Death
+366,1,Lev,0,50,0,0,0,4.0,2.0,3,1,0,2545,0,2545,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+367,1,Lev,1,56,0,0,0,3.0,2.0,4,0,0,119,1,356,1,Male,No,No,No,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+368,1,Lev+5FU,0,42,0,0,0,10.0,3.0,3,1,1,315,1,484,1,Female,No,No,No,Long,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+369,1,Lev,0,72,0,0,0,1.0,2.0,3,0,0,174,1,382,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+370,1,Obs,0,68,0,0,1,9.0,2.0,3,1,1,735,1,1021,1,Female,No,No,Yes,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+371,1,Lev,1,49,0,0,0,1.0,2.0,2,1,0,2472,0,2472,0,Male,No,No,No,Long,Moderate,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+372,1,Lev,1,64,0,0,0,12.0,2.0,3,1,1,2352,0,2352,0,Male,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+373,1,Obs,0,70,0,0,0,1.0,1.0,2,0,0,2486,0,2486,0,Female,No,No,No,Short,Well,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+374,1,Lev+5FU,1,50,0,0,1,2.0,2.0,4,0,0,154,1,324,1,Male,No,No,Yes,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+375,1,Obs,1,74,0,0,1,3.0,3.0,3,1,0,2517,0,2517,0,Male,No,No,Yes,Long,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+376,1,Lev,0,37,0,0,0,1.0,2.0,3,0,0,2613,0,2613,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+377,1,Lev+5FU,0,75,0,0,0,1.0,3.0,3,0,0,2450,0,2450,0,Female,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+378,1,Obs,0,56,0,0,0,2.0,3.0,3,0,0,315,1,770,1,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+379,1,Lev+5FU,1,74,0,0,0,3.0,1.0,3,1,0,2490,0,2490,0,Male,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+380,1,Obs,1,63,0,0,0,2.0,2.0,3,0,0,534,1,1548,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+381,1,Lev,1,56,0,0,0,2.0,2.0,2,0,0,2449,0,2449,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+382,1,Lev+5FU,1,42,0,0,0,13.0,2.0,3,0,1,2299,0,2299,0,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+383,1,Lev,1,63,0,0,0,,2.0,3,0,1,675,1,1252,1,Male,No,No,No,Short,Moderate,Serosa,50–64,Missing,,,Recurrence event,Death
+384,1,Lev,0,62,0,0,0,2.0,2.0,3,1,0,560,1,730,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+385,1,Lev+5FU,0,33,0,0,0,2.0,2.0,3,0,0,2460,0,2460,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+386,1,Obs,0,50,0,0,0,8.0,2.0,3,0,1,374,1,499,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+387,1,Lev,1,73,0,0,0,6.0,3.0,3,0,1,113,1,129,1,Male,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+388,1,Lev+5FU,0,61,0,0,0,9.0,3.0,3,1,1,49,1,52,1,Female,No,No,No,Long,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+389,1,Obs,1,70,1,1,0,1.0,2.0,3,1,0,493,1,2171,1,Male,Yes,Yes,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+390,1,Lev,0,38,0,0,0,3.0,2.0,3,0,0,511,1,1178,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+391,1,Obs,0,64,1,0,0,3.0,2.0,3,0,0,871,1,1915,1,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+392,1,Lev,0,39,0,0,0,2.0,2.0,3,0,0,2572,0,2572,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+393,1,Lev+5FU,0,47,0,0,0,1.0,2.0,3,0,0,2590,0,2590,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+394,1,Obs,1,76,0,0,1,13.0,3.0,3,0,1,88,1,215,1,Male,No,No,Yes,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+395,1,Obs,1,65,0,0,0,2.0,2.0,3,0,0,2325,0,2325,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+396,1,Lev,0,43,1,0,0,4.0,2.0,3,0,1,116,1,961,1,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,0.0,Recurrence event,Death
+397,1,Lev,1,72,0,0,0,1.0,2.0,3,1,0,2691,0,2691,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+398,1,Obs,1,33,0,0,0,2.0,2.0,3,1,0,2574,0,2574,0,Male,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+399,1,Lev+5FU,1,66,0,0,0,7.0,2.0,3,0,1,2540,0,2540,0,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+400,1,Lev+5FU,0,74,0,0,0,2.0,2.0,3,0,0,2364,0,2364,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+401,1,Lev+5FU,1,54,0,0,0,1.0,2.0,3,0,0,2472,0,2472,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+402,1,Obs,1,44,0,0,0,14.0,2.0,3,0,1,237,1,409,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+403,1,Obs,1,75,1,0,0,27.0,2.0,2,0,1,276,1,961,1,Male,Yes,No,No,Short,Moderate,Muscle,65+,5+,1.0,1.0,Recurrence event,Death
+404,1,Lev,1,58,0,0,0,6.0,2.0,3,0,1,2449,0,2449,0,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+405,1,Lev,1,48,0,0,0,6.0,1.0,2,1,1,2520,0,2520,0,Male,No,No,No,Long,Well,Muscle,<50,5+,1.0,1.0,Censored,Censored
+406,1,Lev+5FU,0,64,0,0,0,1.0,2.0,3,0,0,336,1,916,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+407,1,Lev,1,49,0,0,0,1.0,1.0,3,0,0,2227,0,2227,0,Male,No,No,No,Short,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+408,1,Obs,0,55,0,0,0,1.0,2.0,3,0,1,2394,0,2394,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,0.0,Censored,Censored
+409,1,Lev+5FU,1,60,0,0,0,3.0,2.0,3,0,0,2029,0,2029,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+410,1,Obs,1,67,0,0,0,2.0,2.0,3,0,0,2487,0,2487,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+411,1,Lev+5FU,1,79,0,0,0,1.0,2.0,2,0,0,2052,0,2052,1,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Death
+412,1,Lev,1,57,0,0,0,1.0,2.0,3,0,0,2690,0,2690,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+413,1,Obs,0,22,0,0,0,3.0,2.0,3,1,0,2234,0,2234,0,Female,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+414,1,Obs,1,59,1,0,0,4.0,1.0,3,0,0,238,1,537,1,Male,Yes,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+415,1,Lev+5FU,0,66,1,0,0,1.0,1.0,3,0,0,2277,0,2277,0,Female,Yes,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+416,1,Lev,1,54,0,0,1,2.0,2.0,4,0,0,474,1,729,1,Male,No,No,Yes,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+417,1,Obs,1,58,0,0,0,1.0,2.0,2,0,0,2194,0,2194,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+418,1,Obs,0,36,1,0,0,7.0,2.0,3,0,1,2551,0,2551,0,Female,Yes,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+419,1,Obs,1,52,0,0,0,4.0,2.0,3,0,0,1353,1,1692,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+420,1,Obs,0,61,0,0,0,1.0,2.0,3,0,0,256,1,758,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+421,1,Lev,0,76,0,0,0,2.0,1.0,3,0,0,2079,0,2079,1,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Death
+422,1,Lev,0,58,0,0,1,6.0,1.0,3,0,1,439,1,720,1,Female,No,No,Yes,Short,Well,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+423,1,Lev,1,52,0,0,0,5.0,1.0,3,0,1,2380,0,2380,0,Male,No,No,No,Short,Well,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+424,1,Obs,1,72,0,0,0,1.0,2.0,3,1,0,845,0,845,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+425,1,Lev,1,74,0,0,0,1.0,1.0,3,0,0,2416,0,2416,0,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+426,1,Obs,1,62,0,0,0,6.0,2.0,2,1,1,532,1,863,1,Male,No,No,No,Long,Moderate,Muscle,50–64,5+,1.0,1.0,Recurrence event,Death
+427,1,Obs,0,46,0,0,1,1.0,2.0,3,0,0,1363,0,1363,1,Female,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Death
+428,1,Obs,1,66,0,0,0,1.0,2.0,3,0,0,2528,0,2528,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+429,1,Lev+5FU,1,52,0,0,0,5.0,2.0,3,0,1,617,1,1145,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+430,1,Lev+5FU,0,38,0,0,0,24.0,,3,0,1,365,1,499,1,Female,No,No,No,Short,Missing,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+431,1,Obs,1,61,0,0,0,1.0,2.0,3,1,0,165,1,242,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+432,1,Obs,0,60,0,0,0,1.0,1.0,3,0,0,2294,0,2294,0,Female,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+433,1,Lev,0,68,0,0,1,2.0,1.0,3,0,0,593,1,858,1,Female,No,No,Yes,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+434,1,Lev,0,53,0,0,0,6.0,2.0,3,1,1,72,1,122,1,Female,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+435,1,Lev+5FU,1,58,0,0,0,1.0,2.0,3,1,0,2682,0,2682,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+436,1,Obs,1,64,0,0,0,4.0,2.0,3,0,0,1818,0,1818,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Death
+437,1,Obs,1,68,1,0,1,3.0,2.0,3,0,0,2532,0,2532,0,Male,Yes,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+438,1,Obs,1,62,0,0,1,6.0,2.0,4,0,1,257,1,331,1,Male,No,No,Yes,Short,Moderate,Contiguous structures,50–64,5+,1.0,1.0,Recurrence event,Death
+439,1,Obs,1,70,0,0,0,1.0,1.0,3,0,0,748,1,1048,1,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+440,1,Lev+5FU,1,57,0,0,0,1.0,2.0,3,0,0,2513,0,2513,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+441,1,Lev+5FU,0,66,0,0,1,1.0,2.0,4,0,0,340,0,340,1,Female,No,No,Yes,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Censored,Death
+442,1,Lev,0,59,0,0,0,11.0,2.0,3,0,1,615,1,1850,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+443,1,Lev,1,75,0,0,0,3.0,1.0,3,0,0,2332,0,2332,0,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+444,1,Lev+5FU,1,77,0,0,0,2.0,2.0,3,0,0,2279,0,2279,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+445,1,Lev,1,57,0,0,0,6.0,2.0,3,0,1,454,1,1041,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+446,1,Obs,1,72,0,0,0,2.0,1.0,2,1,0,1106,1,1790,1,Male,No,No,No,Long,Well,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+447,1,Lev+5FU,0,64,1,0,0,3.0,2.0,3,0,0,161,1,304,1,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+448,1,Lev+5FU,1,33,0,0,0,2.0,3.0,3,0,0,2517,0,2517,0,Male,No,No,No,Short,Poor,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+449,1,Lev+5FU,0,62,0,0,0,2.0,2.0,3,1,0,2028,1,2156,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+450,1,Lev+5FU,1,70,0,0,0,1.0,2.0,3,0,0,936,1,1388,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+451,1,Lev,0,55,1,0,0,4.0,1.0,3,0,0,2544,0,2544,0,Female,Yes,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+452,1,Obs,1,32,1,0,1,11.0,2.0,3,0,1,1852,0,1852,0,Male,Yes,No,Yes,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+453,1,Obs,0,64,1,0,0,2.0,2.0,2,0,0,2122,0,2122,0,Female,Yes,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+454,1,Obs,0,48,0,0,0,1.0,2.0,4,0,0,2577,0,2577,0,Female,No,No,No,Short,Moderate,Contiguous structures,<50,1–4,0.0,1.0,Censored,Censored
+455,1,Lev,1,68,0,0,1,3.0,2.0,3,1,0,337,1,2023,1,Male,No,No,Yes,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+456,1,Lev+5FU,0,59,0,0,0,1.0,2.0,3,1,0,578,1,1201,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+457,1,Obs,1,68,0,0,1,9.0,3.0,3,0,1,218,1,901,1,Male,No,No,Yes,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+458,1,Lev,0,50,0,0,1,1.0,1.0,3,1,0,1589,1,2385,0,Female,No,No,Yes,Long,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+459,1,Obs,0,41,1,0,0,4.0,2.0,3,0,0,103,1,663,1,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+460,1,Lev,0,69,0,0,1,1.0,2.0,3,0,0,2506,0,2506,0,Female,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+461,1,Lev+5FU,1,46,0,0,0,2.0,1.0,2,0,0,2332,0,2332,0,Male,No,No,No,Short,Well,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+462,1,Obs,1,43,0,0,0,1.0,2.0,3,0,0,2176,0,2176,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+463,1,Lev+5FU,1,68,0,0,0,3.0,3.0,3,1,0,248,1,1212,1,Male,No,No,No,Long,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+464,1,Lev,1,73,0,0,0,3.0,2.0,3,0,0,330,1,890,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+465,1,Lev+5FU,0,66,0,0,1,4.0,3.0,4,0,0,208,1,302,1,Female,No,No,Yes,Short,Poor,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Death
+466,1,Obs,0,60,0,0,1,1.0,2.0,3,0,0,2396,0,2396,0,Female,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+467,1,Lev+5FU,1,74,0,0,0,2.0,2.0,3,1,0,2481,0,2481,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+468,1,Lev,1,68,0,0,0,1.0,1.0,3,0,0,62,1,316,1,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+469,1,Lev+5FU,0,60,1,0,0,1.0,2.0,3,0,0,2245,0,2245,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+470,1,Obs,1,71,0,0,1,1.0,2.0,4,0,0,2447,0,2447,0,Male,No,No,Yes,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Censored,Censored
+471,1,Obs,1,76,0,0,0,2.0,2.0,1,0,0,2213,0,2213,0,Male,No,No,No,Short,Moderate,Submucosa,65+,1–4,0.0,1.0,Censored,Censored
+472,1,Obs,1,57,0,0,0,8.0,3.0,2,0,1,273,1,1070,1,Male,No,No,No,Short,Poor,Muscle,50–64,5+,1.0,1.0,Recurrence event,Death
+473,1,Lev,0,33,0,0,0,7.0,3.0,3,0,1,235,1,439,1,Female,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+474,1,Lev,1,54,0,0,0,4.0,2.0,3,0,0,583,1,905,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+475,1,Obs,1,68,0,0,0,13.0,2.0,3,1,1,1089,1,1723,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+476,1,Obs,0,70,0,0,0,6.0,3.0,2,1,1,80,1,241,1,Female,No,No,No,Long,Poor,Muscle,65+,5+,1.0,1.0,Recurrence event,Death
+477,1,Obs,1,66,0,0,0,5.0,2.0,3,0,1,1314,0,1314,1,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Death
+478,1,Lev,0,45,1,0,0,3.0,2.0,3,0,0,260,1,438,1,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+479,1,Lev,0,61,0,0,0,2.0,2.0,3,0,0,1981,0,1981,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+480,1,Obs,0,74,0,0,1,1.0,3.0,3,1,0,2195,0,2195,0,Female,No,No,Yes,Long,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+481,1,Obs,1,47,1,1,1,4.0,2.0,3,0,0,625,1,1101,1,Male,Yes,Yes,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+482,1,Lev+5FU,0,58,1,0,0,5.0,3.0,3,0,1,40,1,79,1,Female,Yes,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+483,1,Obs,1,73,0,0,0,1.0,2.0,3,1,0,215,1,976,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+484,1,Lev,1,61,0,0,0,17.0,2.0,3,1,1,613,1,664,1,Male,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+485,1,Obs,0,44,0,0,0,4.0,2.0,3,0,0,1535,1,2299,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+486,1,Lev+5FU,1,56,0,0,0,1.0,2.0,3,0,1,252,1,279,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,0.0,Recurrence event,Death
+487,1,Lev,0,66,0,0,0,7.0,2.0,3,0,1,663,1,1037,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+488,1,Obs,0,30,0,0,0,6.0,3.0,3,0,1,362,1,692,1,Female,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+489,1,Lev+5FU,0,67,0,0,1,10.0,2.0,3,0,1,2174,0,2174,1,Female,No,No,Yes,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Death
+490,1,Lev,0,74,0,0,0,2.0,2.0,3,0,0,2144,0,2144,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+491,1,Lev,0,74,0,0,1,1.0,3.0,3,0,0,2058,0,2058,0,Female,No,No,Yes,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+492,1,Obs,1,56,0,0,0,4.0,2.0,3,0,0,2148,1,2485,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+493,1,Lev+5FU,0,60,0,0,0,2.0,2.0,3,1,0,2410,0,2410,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+494,1,Lev,0,54,1,0,1,2.0,3.0,2,0,0,352,1,2565,0,Female,Yes,No,Yes,Short,Poor,Muscle,50–64,1–4,0.0,1.0,Recurrence event,Censored
+495,1,Lev+5FU,0,74,0,0,0,3.0,2.0,2,0,0,884,0,884,1,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Death
+496,1,Lev+5FU,0,45,0,0,0,3.0,2.0,3,0,0,205,1,389,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+497,1,Lev+5FU,0,81,0,0,0,1.0,2.0,3,0,0,591,1,692,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+498,1,Lev+5FU,1,73,1,0,0,1.0,2.0,3,0,0,449,1,642,1,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+499,1,Lev,1,71,1,0,0,1.0,2.0,3,1,0,828,1,846,1,Male,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+500,1,Lev+5FU,1,70,0,0,0,3.0,,3,0,0,2203,0,2203,0,Male,No,No,No,Short,Missing,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+501,1,Lev+5FU,1,66,0,0,0,1.0,2.0,3,0,0,2164,0,2164,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+502,1,Lev+5FU,0,71,0,0,0,,2.0,3,0,1,700,1,1273,1,Female,No,No,No,Short,Moderate,Serosa,65+,Missing,,,Recurrence event,Death
+503,1,Obs,1,48,0,0,0,1.0,3.0,2,1,1,2393,0,2393,0,Male,No,No,No,Long,Poor,Muscle,<50,1–4,0.0,0.0,Censored,Censored
+504,1,Lev+5FU,0,55,0,0,0,4.0,2.0,3,0,0,491,1,862,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+505,1,Lev+5FU,0,72,0,0,0,2.0,3.0,2,0,0,2331,0,2331,0,Female,No,No,No,Short,Poor,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+506,1,Lev,1,57,0,0,0,3.0,,3,0,0,2264,0,2264,0,Male,No,No,No,Short,Missing,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+507,1,Lev+5FU,1,57,0,0,0,11.0,3.0,3,0,1,63,1,144,1,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+508,1,Obs,1,38,0,0,0,2.0,1.0,3,0,0,2429,0,2429,0,Male,No,No,No,Short,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+509,1,Lev,1,52,1,0,0,0.0,2.0,3,0,0,98,1,723,1,Male,Yes,No,No,Short,Moderate,Serosa,50–64,0,0.0,1.0,Recurrence event,Death
+510,1,Obs,1,57,0,0,0,1.0,2.0,3,0,0,702,1,2530,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+511,1,Lev,0,33,0,0,0,2.0,2.0,3,0,0,573,1,1568,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+512,1,Obs,0,39,0,0,0,2.0,2.0,2,0,0,2292,0,2292,0,Female,No,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+513,1,Lev,1,61,0,0,0,1.0,2.0,3,1,0,2252,0,2252,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+514,1,Lev+5FU,0,71,0,0,0,1.0,3.0,3,0,0,2408,0,2408,0,Female,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+515,1,Lev,1,58,0,0,0,4.0,2.0,3,0,0,2555,0,2555,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+516,1,Lev+5FU,0,66,0,0,0,7.0,3.0,3,0,1,237,1,276,1,Female,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+517,1,Obs,0,59,0,0,0,4.0,2.0,2,1,0,1606,1,1896,1,Female,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Recurrence event,Death
+518,1,Lev+5FU,0,43,1,0,0,1.0,2.0,3,0,0,2147,0,2147,0,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+519,1,Obs,1,66,0,0,0,3.0,2.0,3,0,0,2269,0,2269,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+520,1,Obs,0,48,0,0,0,1.0,2.0,3,0,0,2391,0,2391,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+521,1,Lev+5FU,1,68,0,0,0,1.0,2.0,3,0,0,849,1,1424,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+522,1,Obs,0,72,0,0,0,,2.0,3,0,1,2257,0,2257,0,Female,No,No,No,Short,Moderate,Serosa,65+,Missing,,,Censored,Censored
+523,1,Lev+5FU,0,77,0,0,0,10.0,3.0,4,0,1,408,1,2381,0,Female,No,No,No,Short,Poor,Contiguous structures,65+,5+,1.0,1.0,Recurrence event,Censored
+524,1,Lev+5FU,0,68,1,0,0,1.0,2.0,3,0,0,2103,0,2103,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+525,1,Obs,0,44,0,0,1,1.0,2.0,4,0,0,1466,1,2210,0,Female,No,No,Yes,Short,Moderate,Contiguous structures,<50,1–4,0.0,1.0,Recurrence event,Censored
+526,1,Lev+5FU,0,63,0,0,0,1.0,2.0,3,0,0,2530,0,2530,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+527,1,Lev,1,66,0,0,0,1.0,2.0,3,0,0,2386,0,2386,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+528,1,Lev,1,50,0,0,0,3.0,3.0,3,0,0,141,1,219,1,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+529,1,Lev,1,72,0,0,0,1.0,2.0,3,0,0,486,0,486,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+530,1,Lev+5FU,1,40,0,0,0,5.0,1.0,3,0,1,701,1,1246,1,Male,No,No,No,Short,Well,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+531,1,Lev,1,49,0,0,0,10.0,2.0,3,0,1,2138,0,2138,0,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+532,1,Lev+5FU,0,56,0,0,0,2.0,3.0,3,0,0,2439,0,2439,0,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+533,1,Obs,1,61,0,0,0,2.0,2.0,2,0,0,2231,0,2231,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+534,1,Obs,1,65,0,0,0,6.0,2.0,3,1,1,230,1,384,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+535,1,Lev+5FU,1,65,0,0,0,2.0,2.0,2,0,0,2505,0,2505,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+536,1,Lev,0,72,0,0,0,1.0,1.0,1,0,0,169,1,1652,1,Female,No,No,No,Short,Well,Submucosa,65+,1–4,0.0,1.0,Recurrence event,Death
+537,1,Lev+5FU,0,68,0,0,1,1.0,2.0,3,1,0,1329,1,2441,0,Female,No,No,Yes,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+538,1,Obs,0,59,0,0,0,4.0,2.0,3,1,0,208,1,687,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+539,1,Lev+5FU,1,59,0,0,0,4.0,2.0,3,0,0,2179,0,2179,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+540,1,Lev+5FU,0,71,1,0,0,6.0,2.0,3,0,1,2189,0,2189,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+541,1,Lev,1,49,0,0,0,8.0,2.0,3,0,1,2472,0,2472,0,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+542,1,Lev+5FU,1,70,0,0,0,3.0,2.0,3,1,0,2111,0,2111,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+543,1,Lev+5FU,1,55,0,0,0,7.0,3.0,3,0,1,2020,0,2020,0,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+544,1,Lev,0,46,0,1,0,7.0,2.0,3,0,1,313,1,1161,1,Female,No,Yes,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+545,1,Obs,1,77,0,0,0,1.0,2.0,3,1,0,1081,1,2231,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+546,1,Lev+5FU,1,57,0,0,0,4.0,2.0,3,0,0,2300,0,2300,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+547,1,Obs,1,68,0,0,0,1.0,2.0,3,0,0,731,1,2391,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+548,1,Lev,1,62,0,0,1,1.0,2.0,3,0,0,717,1,759,1,Male,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+549,1,Obs,1,44,0,0,0,7.0,3.0,3,0,1,77,1,166,1,Male,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+550,1,Lev,0,58,0,0,1,1.0,2.0,3,0,0,2323,0,2323,0,Female,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+551,1,Lev+5FU,0,75,0,0,0,2.0,1.0,3,0,0,2321,0,2321,0,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+552,1,Obs,0,70,1,0,0,7.0,2.0,3,1,1,1976,0,1976,0,Female,Yes,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+553,1,Obs,1,82,0,0,0,6.0,2.0,3,1,1,2229,0,2229,0,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+554,1,Lev+5FU,0,61,0,0,0,3.0,2.0,3,0,0,536,1,1671,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+555,1,Obs,1,52,0,0,0,2.0,2.0,3,0,0,930,1,1907,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+556,1,Lev+5FU,1,47,0,0,0,7.0,3.0,3,0,1,1277,1,1783,1,Male,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+557,1,Lev,0,61,0,0,0,7.0,3.0,3,1,1,337,1,684,1,Female,No,No,No,Long,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+558,1,Lev+5FU,1,39,0,0,0,9.0,2.0,3,0,1,91,1,441,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+559,1,Lev,0,69,0,0,0,3.0,2.0,2,0,0,116,1,902,1,Female,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+560,1,Lev,1,55,0,0,0,7.0,3.0,3,0,1,2244,0,2244,0,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+561,1,Obs,0,56,1,0,0,1.0,2.0,3,0,1,2170,0,2170,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,0.0,Censored,Censored
+562,1,Obs,1,80,0,0,0,1.0,3.0,3,0,0,1870,0,1870,0,Male,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+563,1,Lev,1,43,0,0,0,4.0,2.0,3,0,0,2066,0,2066,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+564,1,Lev,1,83,0,0,0,2.0,2.0,3,1,0,2030,0,2030,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+565,1,Obs,0,85,0,0,0,1.0,1.0,3,1,0,227,1,253,1,Female,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+566,1,Lev+5FU,1,61,0,0,0,1.0,2.0,3,0,0,2047,0,2047,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+567,1,Lev,0,47,0,0,0,9.0,2.0,4,0,1,372,1,1768,1,Female,No,No,No,Short,Moderate,Contiguous structures,<50,5+,1.0,1.0,Recurrence event,Death
+568,1,Lev+5FU,0,76,0,0,0,1.0,2.0,3,0,0,2043,0,2043,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+569,1,Lev+5FU,1,58,0,0,0,1.0,2.0,3,0,0,2162,0,2162,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+570,1,Obs,1,59,0,0,0,2.0,2.0,2,0,0,2093,0,2093,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+571,1,Lev,0,60,0,0,0,1.0,2.0,3,0,0,1183,1,2310,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+572,1,Lev,1,32,0,0,0,2.0,2.0,3,0,0,1606,1,2128,1,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+573,1,Obs,1,56,0,0,0,1.0,,4,0,0,739,1,1884,1,Male,No,No,No,Short,Missing,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+574,1,Lev,1,75,0,0,0,2.0,2.0,3,1,0,219,0,219,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+575,1,Lev+5FU,1,62,0,0,0,3.0,1.0,3,1,0,2309,0,2309,0,Male,No,No,No,Long,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+576,1,Obs,0,69,0,0,0,12.0,2.0,3,0,1,296,1,313,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+577,1,Lev,1,72,0,0,1,4.0,2.0,3,1,0,279,1,546,1,Male,No,No,Yes,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+578,1,Obs,0,54,0,0,0,1.0,2.0,3,1,0,2213,0,2213,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Death
+579,1,Lev+5FU,1,72,0,0,0,1.0,2.0,3,0,0,1856,0,1856,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+580,1,Lev+5FU,0,27,0,0,0,1.0,2.0,3,0,0,1421,0,1421,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+581,1,Lev+5FU,0,62,0,0,0,4.0,2.0,4,1,0,360,1,460,1,Female,No,No,No,Long,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+582,1,Lev,0,39,0,0,0,2.0,2.0,1,1,0,959,1,2173,0,Female,No,No,No,Long,Moderate,Submucosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+583,1,Lev+5FU,0,60,0,0,0,4.0,2.0,3,1,0,146,1,283,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+584,1,Lev+5FU,1,55,1,0,0,5.0,3.0,3,0,1,9,1,34,1,Male,Yes,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+585,1,Obs,1,64,0,0,0,1.0,2.0,3,0,0,2191,0,2191,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+586,1,Lev,0,68,0,0,0,12.0,3.0,3,0,1,2186,0,2186,0,Female,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Censored,Censored
+587,1,Obs,0,65,0,0,0,2.0,2.0,3,0,0,555,1,1159,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+588,1,Lev+5FU,0,66,1,0,0,3.0,1.0,3,0,0,554,1,616,1,Female,Yes,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+589,1,Lev,1,39,0,0,0,2.0,3.0,3,0,0,2270,0,2270,0,Male,No,No,No,Short,Poor,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+590,1,Lev,1,54,0,0,1,,2.0,3,1,1,253,1,1061,1,Male,No,No,Yes,Long,Moderate,Serosa,50–64,Missing,,,Recurrence event,Death
+591,1,Obs,1,34,1,0,0,1.0,2.0,3,0,0,411,1,591,1,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+592,1,Lev,0,74,0,0,0,4.0,2.0,3,0,0,2065,0,2065,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+593,1,Obs,0,81,1,0,1,3.0,2.0,3,0,0,154,1,208,1,Female,Yes,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+594,1,Lev+5FU,1,38,0,0,0,1.0,2.0,3,0,0,594,1,2360,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+595,1,Lev,0,59,0,0,0,3.0,2.0,3,1,0,2312,0,2312,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+596,1,Lev,0,62,0,0,0,1.0,2.0,3,0,0,1902,0,1902,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+597,1,Lev+5FU,1,61,1,0,0,5.0,1.0,2,0,1,1814,0,1814,0,Male,Yes,No,No,Short,Well,Muscle,50–64,5+,1.0,1.0,Censored,Censored
+598,1,Obs,1,46,1,0,0,2.0,2.0,3,1,0,2111,0,2111,0,Male,Yes,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+599,1,Lev+5FU,1,55,0,0,0,1.0,2.0,3,0,0,2330,0,2330,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+600,1,Obs,1,57,0,0,0,5.0,2.0,3,0,1,2202,0,2202,0,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+601,1,Lev,0,38,0,0,0,3.0,2.0,3,1,0,573,1,1295,1,Female,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+602,1,Lev,0,69,0,0,1,19.0,2.0,3,0,1,1918,1,1918,0,Female,No,No,Yes,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Censored
+603,1,Obs,0,79,0,0,1,6.0,2.0,2,1,1,2066,0,2066,0,Female,No,No,Yes,Long,Moderate,Muscle,65+,5+,1.0,1.0,Censored,Censored
+604,1,Lev+5FU,0,71,0,0,0,2.0,2.0,3,0,0,2136,0,2136,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+605,1,Lev,1,74,0,0,0,1.0,3.0,3,1,0,2289,0,2289,0,Male,No,No,No,Long,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+606,1,Lev+5FU,0,30,1,0,0,12.0,2.0,3,0,1,255,1,576,1,Female,Yes,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+607,1,Obs,0,72,0,0,0,1.0,3.0,3,0,0,2232,0,2232,0,Female,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+608,1,Lev,0,68,1,0,0,3.0,2.0,3,0,0,185,1,1034,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+609,1,Lev+5FU,1,66,1,0,0,,3.0,1,1,1,168,1,583,1,Male,Yes,No,No,Long,Poor,Submucosa,65+,Missing,,,Recurrence event,Death
+610,1,Obs,1,63,0,0,0,4.0,2.0,3,0,0,161,1,417,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+611,1,Lev+5FU,0,52,0,0,1,1.0,2.0,3,0,0,1905,0,1905,0,Female,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+612,1,Lev,1,64,0,0,0,4.0,2.0,3,1,0,263,1,875,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+613,1,Lev+5FU,1,68,0,0,0,1.0,2.0,3,0,0,543,1,674,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+614,1,Lev,1,74,0,0,0,2.0,2.0,3,0,0,2185,0,2185,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+615,1,Lev+5FU,1,32,0,0,0,2.0,2.0,3,1,0,636,1,1151,1,Male,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+616,1,Lev,0,60,1,0,0,6.0,2.0,3,1,1,175,1,342,1,Female,Yes,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+617,1,Obs,0,39,0,0,0,8.0,2.0,3,0,1,2187,0,2187,0,Female,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+618,1,Obs,0,76,0,0,1,5.0,2.0,3,0,1,608,1,1434,1,Female,No,No,Yes,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+619,1,Lev+5FU,1,62,0,0,0,14.0,3.0,3,1,1,386,1,430,1,Male,No,No,No,Long,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+620,1,Lev,0,41,0,0,1,2.0,2.0,3,0,0,1564,1,2339,0,Female,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+621,1,Lev+5FU,1,35,0,0,1,2.0,2.0,3,1,0,934,1,1365,1,Male,No,No,Yes,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+622,1,Obs,0,59,0,0,0,1.0,2.0,3,0,0,2313,0,2313,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+623,1,Obs,1,52,0,0,0,2.0,2.0,3,0,0,2153,0,2153,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+624,1,Lev+5FU,1,65,0,0,0,1.0,2.0,3,0,0,2164,0,2164,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+625,1,Lev+5FU,1,61,0,0,0,3.0,3.0,3,1,0,2180,0,2180,0,Male,No,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+626,1,Obs,1,61,0,0,0,8.0,1.0,3,0,0,2110,0,2110,0,Male,No,No,No,Short,Well,Serosa,50–64,5+,1.0,0.0,Censored,Censored
+627,1,Obs,1,59,0,0,0,1.0,1.0,3,0,0,975,1,2139,0,Male,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+628,1,Lev+5FU,1,59,0,0,0,2.0,,3,0,0,2120,0,2120,0,Male,No,No,No,Short,Missing,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+629,1,Lev+5FU,0,71,0,0,0,5.0,2.0,2,0,1,1644,1,2197,1,Female,No,No,No,Short,Moderate,Muscle,65+,5+,1.0,1.0,Recurrence event,Death
+630,1,Obs,1,39,0,0,0,4.0,3.0,4,0,0,453,0,453,0,Male,No,No,No,Short,Poor,Contiguous structures,<50,1–4,0.0,1.0,Censored,Censored
+631,1,Obs,1,65,0,0,0,7.0,3.0,3,0,1,663,1,928,1,Male,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+632,1,Lev,0,34,1,0,0,3.0,1.0,3,0,0,504,1,675,1,Female,Yes,No,No,Short,Well,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+633,1,Obs,1,51,1,0,0,4.0,2.0,3,1,0,2170,0,2170,0,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+634,1,Obs,0,55,0,0,0,3.0,2.0,3,0,0,2138,0,2138,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+635,1,Lev+5FU,1,65,0,1,0,3.0,3.0,3,0,0,2255,0,2255,0,Male,No,Yes,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+636,1,Lev+5FU,0,71,0,0,0,,1.0,3,0,1,2290,0,2290,0,Female,No,No,No,Short,Well,Serosa,65+,Missing,,,Censored,Censored
+637,1,Lev,0,68,1,0,0,1.0,2.0,3,0,0,960,1,1055,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+638,1,Lev,0,59,0,0,0,1.0,2.0,3,0,0,1687,1,2347,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+639,1,Lev,1,66,0,0,0,2.0,3.0,3,0,0,336,1,573,1,Male,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+640,1,Obs,1,62,0,0,0,2.0,2.0,2,0,0,2200,0,2200,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+641,1,Lev+5FU,0,40,0,0,0,8.0,2.0,3,0,1,322,1,550,1,Female,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+642,1,Lev,1,64,0,0,0,3.0,3.0,3,0,0,1298,1,1405,1,Male,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+643,1,Lev+5FU,1,40,1,0,0,2.0,3.0,3,1,0,2031,1,2355,0,Male,Yes,No,No,Long,Poor,Serosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+644,1,Lev,1,70,0,0,0,9.0,2.0,3,0,1,672,1,1186,1,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+645,1,Lev,1,66,0,0,1,1.0,,4,0,0,369,1,1540,1,Male,No,No,Yes,Short,Missing,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Death
+646,1,Lev+5FU,1,73,1,0,1,1.0,2.0,2,0,0,2229,0,2229,0,Male,Yes,No,Yes,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+647,1,Lev,1,69,0,0,0,1.0,1.0,3,0,0,742,1,969,1,Male,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+648,1,Obs,1,58,0,0,0,1.0,2.0,3,0,0,433,1,465,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+649,1,Lev+5FU,0,55,0,0,0,6.0,2.0,3,0,1,458,1,603,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+650,1,Lev,0,53,0,0,1,6.0,2.0,3,1,1,490,1,997,1,Female,No,No,Yes,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+651,1,Lev,1,52,0,0,0,2.0,2.0,3,0,0,2274,0,2274,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+652,1,Obs,0,62,0,0,0,3.0,2.0,3,0,0,294,1,563,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+653,1,Lev,1,61,0,0,1,2.0,2.0,3,0,0,465,1,1434,1,Male,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+654,1,Lev+5FU,0,69,0,0,0,3.0,2.0,3,1,0,2316,0,2316,0,Female,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+655,1,Lev+5FU,0,41,1,0,0,3.0,2.0,3,0,0,199,1,692,1,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+656,1,Obs,1,64,0,0,0,3.0,2.0,3,0,0,499,1,1447,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+657,1,Lev+5FU,0,59,0,0,0,3.0,3.0,3,0,0,165,1,428,1,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+658,1,Lev,0,65,0,0,0,1.0,1.0,2,1,0,2152,0,2152,0,Female,No,No,No,Long,Well,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+659,1,Obs,1,66,0,0,0,3.0,2.0,3,1,0,406,1,854,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+660,1,Lev,1,60,0,0,0,2.0,2.0,3,0,0,2093,0,2093,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+661,1,Lev+5FU,1,43,0,0,1,1.0,2.0,3,1,0,2198,0,2198,0,Male,No,No,Yes,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+662,1,Obs,1,74,0,0,0,1.0,3.0,3,1,0,113,1,2126,0,Male,No,No,No,Long,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+663,1,Lev+5FU,1,67,0,0,0,2.0,3.0,2,0,0,2189,0,2189,0,Male,No,No,No,Short,Poor,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+664,1,Lev,1,46,1,0,0,1.0,2.0,3,0,0,2142,0,2142,0,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+665,1,Lev+5FU,1,47,0,0,0,3.0,2.0,2,0,0,2278,0,2278,0,Male,No,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+666,1,Obs,1,66,1,0,0,4.0,2.0,3,0,0,20,1,622,1,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+667,1,Lev+5FU,0,36,1,0,0,6.0,2.0,3,0,1,2192,0,2192,0,Female,Yes,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+668,1,Obs,1,62,1,0,0,2.0,3.0,3,1,0,280,1,413,1,Male,Yes,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+669,1,Lev,0,69,0,0,0,2.0,2.0,3,0,0,680,1,1191,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+670,1,Obs,0,76,0,0,0,3.0,1.0,3,1,0,1139,1,1139,1,Female,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+671,1,Lev,1,36,1,0,0,2.0,3.0,3,1,0,111,1,165,1,Male,Yes,No,No,Long,Poor,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+672,1,Obs,1,73,0,0,1,3.0,,2,0,0,2210,0,2210,0,Male,No,No,Yes,Short,Missing,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+673,1,Obs,1,72,0,0,0,5.0,2.0,2,0,1,2227,0,2227,0,Male,No,No,No,Short,Moderate,Muscle,65+,5+,1.0,1.0,Censored,Censored
+674,1,Lev,1,61,0,0,0,1.0,2.0,2,0,0,2076,0,2076,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+675,1,Obs,1,58,0,0,0,2.0,2.0,3,0,0,2132,0,2132,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+676,1,Lev+5FU,0,52,1,0,0,3.0,1.0,3,0,0,2084,0,2084,0,Female,Yes,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+677,1,Obs,1,66,0,0,0,2.0,2.0,4,0,0,379,1,1905,0,Male,No,No,No,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Censored
+678,1,Lev,0,43,0,0,0,7.0,2.0,3,1,1,286,1,608,1,Female,No,No,No,Long,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+679,1,Lev+5FU,1,60,0,0,0,1.0,2.0,2,1,0,2066,0,2066,0,Male,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+680,1,Obs,0,61,0,0,0,4.0,2.0,3,0,0,2006,0,2006,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+681,1,Lev,1,61,0,0,0,3.0,2.0,2,0,0,2183,0,2183,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+682,1,Lev+5FU,1,46,0,0,0,1.0,2.0,1,0,0,2099,0,2099,0,Male,No,No,No,Short,Moderate,Submucosa,<50,1–4,0.0,1.0,Censored,Censored
+683,1,Lev,1,73,0,0,0,1.0,2.0,3,0,0,1879,0,1879,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+684,1,Obs,0,65,1,0,0,3.0,2.0,3,1,0,99,1,264,1,Female,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+685,1,Lev+5FU,0,61,1,0,0,1.0,2.0,3,0,0,2107,0,2107,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+686,1,Lev,1,65,0,0,0,15.0,3.0,3,0,1,491,1,743,1,Male,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+687,1,Obs,1,68,0,0,0,2.0,2.0,3,0,0,102,1,966,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+688,1,Lev+5FU,1,63,0,0,0,1.0,2.0,3,0,0,2076,0,2076,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+689,1,Lev,1,72,1,0,0,4.0,3.0,3,1,0,24,0,24,1,Male,Yes,No,No,Long,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Death
+690,1,Lev+5FU,0,74,0,1,0,2.0,2.0,3,1,0,380,1,448,1,Female,No,Yes,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+691,1,Lev,0,45,0,0,0,9.0,2.0,3,0,1,415,1,909,1,Female,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+692,1,Lev,0,66,0,0,0,1.0,1.0,3,1,0,1647,1,2188,0,Female,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+693,1,Obs,1,38,1,0,0,2.0,,4,0,0,174,1,469,1,Male,Yes,No,No,Short,Missing,Contiguous structures,<50,1–4,0.0,1.0,Recurrence event,Death
+694,1,Obs,0,46,0,1,1,2.0,3.0,4,1,0,243,1,594,1,Female,No,Yes,Yes,Long,Poor,Contiguous structures,<50,1–4,0.0,1.0,Recurrence event,Death
+695,1,Lev+5FU,0,51,0,0,0,1.0,2.0,3,1,0,2008,0,2008,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+696,1,Lev+5FU,1,65,0,0,0,3.0,2.0,4,0,0,827,1,1276,1,Male,No,No,No,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Death
+697,1,Obs,1,55,0,0,0,2.0,2.0,3,0,0,686,1,957,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+698,1,Obs,1,58,0,0,0,4.0,2.0,3,1,0,495,1,1950,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+699,1,Lev+5FU,1,65,0,0,0,1.0,2.0,3,0,0,2668,0,2668,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+700,1,Lev+5FU,0,46,1,0,0,2.0,1.0,3,1,0,2250,0,2250,0,Female,Yes,No,No,Long,Well,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+701,1,Lev,0,57,0,0,0,1.0,2.0,3,0,0,2191,0,2191,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+702,1,Obs,1,67,0,0,1,1.0,2.0,3,0,0,2365,0,2365,0,Male,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+703,1,Lev,0,75,0,0,0,1.0,2.0,3,0,0,2331,0,2331,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+704,1,Lev,1,64,0,0,1,5.0,2.0,3,1,1,1108,1,1262,1,Male,No,No,Yes,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+705,1,Lev,1,63,0,0,0,2.0,2.0,3,0,0,1537,0,1537,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+706,1,Lev,1,64,0,0,0,3.0,2.0,3,0,1,2387,0,2387,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,0.0,Censored,Censored
+707,1,Obs,1,59,0,0,0,1.0,2.0,3,0,0,2235,0,2235,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+708,1,Lev,0,78,0,0,0,3.0,2.0,3,0,0,1980,0,1980,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+709,1,Lev+5FU,1,63,0,0,0,2.0,1.0,1,0,0,285,1,578,1,Male,No,No,No,Short,Well,Submucosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+710,1,Obs,1,57,0,0,0,4.0,1.0,3,0,0,203,1,1083,1,Male,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+711,1,Obs,1,52,0,0,0,3.0,2.0,3,1,0,1436,1,1875,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+712,1,Obs,0,50,0,0,0,3.0,2.0,3,1,0,402,1,2384,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+713,1,Obs,1,36,1,0,0,3.0,2.0,3,1,0,354,1,563,1,Male,Yes,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+714,1,Lev+5FU,0,50,0,0,0,4.0,3.0,3,0,0,2076,0,2076,0,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+715,1,Obs,1,53,0,0,0,1.0,2.0,3,0,0,2025,0,2025,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+716,1,Lev+5FU,1,48,0,0,0,7.0,2.0,3,1,1,2055,0,2055,0,Male,No,No,No,Long,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+717,1,Obs,0,55,0,0,0,2.0,2.0,3,1,0,540,1,1375,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+718,1,Lev+5FU,1,47,0,0,0,2.0,2.0,2,0,0,2350,0,2350,0,Male,No,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Censored,Censored
+719,1,Lev,0,74,0,0,1,1.0,2.0,3,0,0,2200,0,2200,0,Female,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+720,1,Lev+5FU,1,53,1,1,0,3.0,2.0,3,0,0,2222,0,2222,0,Male,Yes,Yes,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+721,1,Obs,1,55,0,0,0,7.0,2.0,3,0,1,1432,1,2149,0,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Censored
+722,1,Lev,1,53,0,0,0,4.0,2.0,2,0,0,2303,0,2303,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+723,1,Obs,1,67,0,1,0,4.0,2.0,4,0,0,201,1,322,1,Male,No,Yes,No,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Death
+724,1,Lev,1,56,0,0,0,3.0,2.0,3,0,0,525,1,764,1,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+725,1,Lev+5FU,0,30,1,0,1,1.0,2.0,3,0,0,415,1,765,1,Female,Yes,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+726,1,Lev,0,56,0,0,0,8.0,1.0,3,0,1,38,1,93,1,Female,No,No,No,Short,Well,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+727,1,Lev+5FU,1,46,1,0,0,3.0,2.0,3,0,0,1918,0,1918,0,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+728,1,Lev,1,60,0,0,0,1.0,1.0,2,0,0,276,1,1932,1,Male,No,No,No,Short,Well,Muscle,50–64,1–4,0.0,1.0,Recurrence event,Death
+729,1,Obs,0,60,0,0,0,1.0,2.0,2,1,0,2278,0,2278,0,Female,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+730,1,Obs,1,57,1,0,0,9.0,3.0,3,0,1,59,1,145,1,Male,Yes,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+731,1,Lev+5FU,0,42,0,0,0,1.0,3.0,3,0,0,1913,0,1913,0,Female,No,No,No,Short,Poor,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+732,1,Obs,1,58,0,0,0,2.0,2.0,3,0,0,2176,0,2176,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+733,1,Obs,0,53,0,0,0,1.0,3.0,3,1,0,1995,0,1995,0,Female,No,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+734,1,Lev+5FU,1,73,0,0,1,1.0,2.0,3,0,0,2023,0,2023,0,Male,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+735,1,Obs,1,73,0,0,0,7.0,2.0,3,0,1,1935,0,1935,0,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+736,1,Obs,1,57,0,0,0,,2.0,3,0,1,1539,1,2191,0,Male,No,No,No,Short,Moderate,Serosa,50–64,Missing,,,Recurrence event,Censored
+737,1,Lev+5FU,0,77,0,0,0,1.0,3.0,3,0,0,2191,0,2191,0,Female,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+738,1,Obs,1,60,0,0,0,2.0,,3,0,0,1856,0,1856,0,Male,No,No,No,Short,Missing,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+739,1,Lev,1,74,0,0,0,8.0,2.0,3,0,1,628,0,628,1,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Death
+740,1,Lev+5FU,1,70,0,0,0,3.0,2.0,2,0,0,1976,0,1976,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+741,1,Obs,0,53,0,0,0,5.0,2.0,3,0,1,1819,0,1819,0,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+742,1,Lev+5FU,0,68,0,0,1,8.0,2.0,4,0,1,101,1,141,1,Female,No,No,Yes,Short,Moderate,Contiguous structures,65+,5+,1.0,1.0,Recurrence event,Death
+743,1,Lev,1,59,1,0,0,2.0,2.0,3,1,0,19,1,422,1,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+744,1,Lev,1,29,1,0,0,3.0,2.0,3,0,0,2006,0,2006,0,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+745,1,Obs,0,57,0,0,0,2.0,2.0,2,0,0,2113,0,2113,0,Female,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+746,1,Obs,1,61,0,0,0,4.0,2.0,2,0,0,1823,0,1823,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+747,1,Obs,1,68,1,0,0,3.0,2.0,3,1,0,2170,0,2170,0,Male,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+748,1,Lev+5FU,1,49,0,0,0,11.0,2.0,3,0,1,1723,1,1812,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+749,1,Lev,0,70,0,0,0,2.0,2.0,3,0,0,1838,0,1838,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+750,1,Obs,1,53,1,0,0,2.0,2.0,3,1,0,1855,0,1855,0,Male,Yes,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+751,1,Lev+5FU,0,57,1,0,0,2.0,3.0,3,1,0,185,1,269,1,Female,Yes,No,No,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+752,1,Lev,1,76,0,0,0,1.0,2.0,3,0,0,2414,0,2414,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+753,1,Lev,1,59,0,0,1,2.0,2.0,2,1,0,2174,0,2174,0,Male,No,No,Yes,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+754,1,Lev+5FU,1,56,0,0,0,1.0,2.0,2,0,0,2263,0,2263,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+755,1,Lev+5FU,1,38,0,0,0,7.0,2.0,3,0,1,1159,1,1495,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+756,1,Lev,0,61,0,0,0,10.0,3.0,3,0,1,113,1,314,1,Female,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+757,1,Obs,1,49,0,0,0,2.0,2.0,3,0,0,1455,1,2261,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Censored
+758,1,Obs,0,69,0,0,0,12.0,2.0,3,1,1,398,1,716,1,Female,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+759,1,Obs,1,53,0,0,0,1.0,2.0,3,0,0,2190,0,2190,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+760,1,Lev+5FU,0,72,0,0,0,6.0,3.0,3,0,1,434,1,2331,0,Female,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Censored
+761,1,Lev,0,57,0,0,0,3.0,2.0,3,0,0,2187,0,2187,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+762,1,Lev,1,73,0,0,1,1.0,2.0,4,0,0,157,1,602,1,Male,No,No,Yes,Short,Moderate,Contiguous structures,65+,1–4,0.0,1.0,Recurrence event,Death
+763,1,Lev+5FU,0,58,0,0,1,2.0,1.0,3,1,0,405,1,666,1,Female,No,No,Yes,Long,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+764,1,Lev+5FU,1,69,0,0,0,5.0,2.0,3,1,1,86,1,138,1,Male,No,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+765,1,Obs,0,69,1,0,0,3.0,3.0,3,0,0,2001,0,2001,0,Female,Yes,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+766,1,Lev+5FU,0,47,0,0,0,5.0,2.0,3,0,1,554,1,887,1,Female,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+767,1,Lev,0,80,0,1,0,2.0,1.0,2,0,0,189,1,1207,1,Female,No,Yes,No,Short,Well,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+768,1,Lev+5FU,1,67,0,0,0,2.0,2.0,3,0,0,1997,0,1997,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+769,1,Lev,0,54,0,0,0,1.0,2.0,3,1,0,1864,0,1864,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+770,1,Lev+5FU,1,63,0,0,1,7.0,3.0,3,0,1,2422,0,2422,0,Male,No,No,Yes,Short,Poor,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+771,1,Lev,0,65,1,0,0,,3.0,3,1,1,271,1,444,1,Female,Yes,No,No,Long,Poor,Serosa,65+,Missing,,,Recurrence event,Death
+772,1,Lev+5FU,0,65,0,1,1,3.0,2.0,3,0,0,2375,0,2375,0,Female,No,Yes,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+773,1,Obs,0,48,1,0,0,2.0,2.0,3,0,0,337,1,718,1,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+774,1,Obs,1,52,0,0,0,2.0,2.0,3,0,0,2204,0,2204,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+775,1,Obs,1,67,0,0,1,1.0,1.0,3,0,0,2120,0,2120,0,Male,No,No,Yes,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+776,1,Lev,0,70,0,1,1,5.0,1.0,3,0,1,294,1,766,1,Female,No,Yes,Yes,Short,Well,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+777,1,Lev,0,51,1,0,1,6.0,3.0,3,0,1,333,1,366,1,Female,Yes,No,Yes,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+778,1,Lev+5FU,0,32,0,0,0,14.0,3.0,2,0,1,8,1,1752,1,Female,No,No,No,Short,Poor,Muscle,<50,5+,1.0,1.0,Recurrence event,Death
+779,1,Lev+5FU,1,63,0,0,1,7.0,3.0,3,1,1,2183,0,2183,0,Male,No,No,Yes,Long,Poor,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+780,1,Obs,0,81,0,0,1,1.0,2.0,3,0,0,1902,0,1902,0,Female,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+781,1,Obs,1,66,0,0,0,7.0,2.0,4,0,1,108,1,259,1,Male,No,No,No,Short,Moderate,Contiguous structures,65+,5+,1.0,1.0,Recurrence event,Death
+782,1,Lev+5FU,0,60,0,1,1,4.0,3.0,3,1,0,328,1,609,1,Female,No,Yes,Yes,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+783,1,Obs,0,81,1,0,0,1.0,1.0,3,0,0,382,1,832,1,Female,Yes,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+784,1,Obs,1,66,1,0,1,4.0,2.0,3,0,0,109,1,164,1,Male,Yes,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+785,1,Lev,1,78,0,0,1,2.0,3.0,3,1,0,1828,0,1828,0,Male,No,No,Yes,Long,Poor,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+786,1,Lev,0,46,0,0,0,3.0,2.0,3,0,0,2147,0,2147,0,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+787,1,Obs,0,57,0,0,0,,2.0,3,0,1,106,1,201,1,Female,No,No,No,Short,Moderate,Serosa,50–64,Missing,,,Recurrence event,Death
+788,1,Lev+5FU,0,57,0,0,0,3.0,2.0,1,0,0,2221,0,2221,0,Female,No,No,No,Short,Moderate,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+789,1,Lev+5FU,0,67,0,0,0,2.0,3.0,3,1,0,296,1,503,1,Female,No,No,No,Long,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+790,1,Lev,1,68,0,0,0,9.0,2.0,3,0,1,230,1,376,1,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+791,1,Lev+5FU,0,38,0,0,0,2.0,2.0,3,0,0,466,1,811,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+792,1,Lev+5FU,0,70,0,0,0,3.0,2.0,3,0,0,1985,0,1985,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+793,1,Obs,1,66,0,0,0,2.0,2.0,3,1,0,2076,0,2076,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+794,1,Lev,1,63,0,0,0,8.0,2.0,3,0,1,565,1,1154,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+795,1,Lev+5FU,1,72,0,0,0,5.0,2.0,2,0,1,844,0,844,1,Male,No,No,No,Short,Moderate,Muscle,65+,5+,1.0,1.0,Censored,Death
+796,1,Obs,1,61,1,0,1,1.0,1.0,3,0,0,577,1,1031,1,Male,Yes,No,Yes,Short,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+797,1,Lev+5FU,1,46,0,0,0,3.0,2.0,3,1,0,683,1,1302,1,Male,No,No,No,Long,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+798,1,Lev+5FU,0,36,1,0,0,3.0,2.0,3,0,0,2169,0,2169,0,Female,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+799,1,Obs,0,69,0,0,0,1.0,2.0,2,1,0,1929,0,1929,0,Female,No,No,No,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+800,1,Lev+5FU,0,75,0,0,0,1.0,2.0,3,0,0,1800,0,1800,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+801,1,Lev,0,64,0,0,0,12.0,2.0,3,0,1,85,1,355,1,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+802,1,Lev,1,77,0,0,0,1.0,2.0,3,1,0,599,1,669,1,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+803,1,Obs,0,51,0,0,0,7.0,2.0,2,0,1,166,1,465,1,Female,No,No,No,Short,Moderate,Muscle,50–64,5+,1.0,1.0,Recurrence event,Death
+804,1,Obs,1,36,0,0,0,6.0,2.0,3,1,1,2157,0,2157,0,Male,No,No,No,Long,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+805,1,Obs,1,56,0,0,0,7.0,2.0,3,1,1,752,1,929,1,Male,No,No,No,Long,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+806,1,Lev,0,63,0,0,0,2.0,2.0,3,1,0,224,1,2242,0,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+807,1,Lev,1,64,0,0,0,2.0,2.0,3,0,0,2067,1,2212,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+808,1,Lev,1,44,0,0,0,1.0,2.0,3,0,0,2148,0,2148,0,Male,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+809,1,Lev,1,73,1,0,0,7.0,2.0,3,1,1,35,1,171,1,Male,Yes,No,No,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+810,1,Lev,1,54,1,0,0,1.0,2.0,4,0,0,366,1,629,1,Male,Yes,No,No,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+811,1,Lev,1,44,0,0,0,2.0,2.0,2,1,0,1029,1,1829,1,Male,No,No,No,Long,Moderate,Muscle,<50,1–4,0.0,1.0,Recurrence event,Death
+812,1,Lev,1,30,0,1,0,9.0,2.0,3,0,1,1939,0,1939,0,Male,No,Yes,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+813,1,Lev+5FU,0,65,0,0,0,7.0,2.0,3,0,1,393,1,529,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+814,1,Obs,0,68,1,0,0,2.0,2.0,3,1,0,2130,0,2130,0,Female,Yes,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+815,1,Obs,0,56,0,0,0,2.0,,1,0,0,1990,0,1990,0,Female,No,No,No,Short,Missing,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+816,1,Obs,1,62,0,0,0,5.0,3.0,3,0,1,286,1,587,1,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+817,1,Lev,0,36,0,0,0,7.0,1.0,2,0,1,482,1,1145,1,Female,No,No,No,Short,Well,Muscle,<50,5+,1.0,1.0,Recurrence event,Death
+818,1,Lev+5FU,1,57,0,0,0,2.0,1.0,3,0,0,2162,0,2162,0,Male,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+819,1,Lev+5FU,1,31,1,0,0,,1.0,3,1,1,134,1,643,1,Male,Yes,No,No,Long,Well,Serosa,<50,Missing,,,Recurrence event,Death
+820,1,Lev,1,39,0,0,0,11.0,2.0,3,0,1,429,1,2129,0,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Censored
+821,1,Obs,1,53,0,0,0,3.0,2.0,3,1,0,401,1,1437,1,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+822,1,Lev,1,60,1,0,0,14.0,2.0,4,1,1,300,1,512,1,Male,Yes,No,No,Long,Moderate,Contiguous structures,50–64,5+,1.0,1.0,Recurrence event,Death
+823,1,Obs,0,65,1,0,0,1.0,2.0,3,0,0,2008,0,2008,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+824,1,Lev+5FU,0,61,0,0,0,1.0,2.0,3,0,0,1814,0,1814,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+825,1,Lev,0,77,1,0,1,3.0,2.0,3,0,0,2161,0,2161,0,Female,Yes,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+826,1,Obs,0,48,1,0,0,5.0,2.0,3,1,1,188,1,506,1,Female,Yes,No,No,Long,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+827,1,Obs,1,77,0,0,0,3.0,1.0,3,1,0,712,1,1482,1,Male,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+828,1,Lev,1,69,0,0,0,10.0,3.0,3,0,1,1964,0,1964,0,Male,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Censored,Censored
+829,1,Lev+5FU,0,36,0,0,0,17.0,3.0,3,0,1,132,1,693,1,Female,No,No,No,Short,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+830,1,Lev+5FU,0,64,0,0,1,4.0,2.0,3,0,0,242,1,592,1,Female,No,No,Yes,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+831,1,Lev+5FU,1,70,0,0,0,1.0,2.0,2,0,0,2207,0,2207,0,Male,No,No,No,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+832,1,Lev+5FU,0,74,0,0,0,3.0,1.0,3,0,0,2181,0,2181,0,Female,No,No,No,Short,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+833,1,Lev+5FU,1,63,0,0,0,9.0,3.0,3,0,1,466,1,696,1,Male,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+834,1,Lev,0,52,0,0,0,10.0,3.0,3,0,1,145,1,257,1,Female,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+835,1,Lev,0,54,0,0,0,3.0,2.0,3,1,0,1551,1,2171,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+836,1,Lev+5FU,0,54,1,0,0,4.0,2.0,3,0,0,2209,0,2209,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+837,1,Lev,0,41,1,0,0,1.0,1.0,3,1,0,413,1,1122,1,Female,Yes,No,No,Long,Well,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+838,1,Obs,0,61,0,0,0,4.0,2.0,3,1,0,659,1,936,1,Female,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+839,1,Lev+5FU,0,34,1,0,0,10.0,3.0,3,1,1,160,1,601,1,Female,Yes,No,No,Long,Poor,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+840,1,Obs,0,59,1,0,0,3.0,2.0,3,0,0,2036,1,2265,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+841,1,Lev+5FU,0,57,0,0,0,3.0,2.0,3,0,0,2198,0,2198,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+842,1,Obs,0,39,0,0,0,6.0,2.0,2,1,1,173,1,275,1,Female,No,No,No,Long,Moderate,Muscle,<50,5+,1.0,1.0,Recurrence event,Death
+843,1,Obs,1,74,0,0,0,3.0,3.0,3,0,0,730,1,1195,1,Male,No,No,No,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+844,1,Lev,1,45,1,0,0,3.0,2.0,3,0,0,2099,0,2099,0,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+845,1,Lev+5FU,0,66,0,0,0,1.0,2.0,3,0,0,2165,0,2165,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+846,1,Lev,1,60,0,0,0,2.0,2.0,3,1,0,2212,0,2212,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+847,1,Lev+5FU,1,73,0,0,0,1.0,2.0,3,0,0,355,0,355,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+848,1,Obs,0,76,0,0,0,1.0,3.0,2,0,0,2097,0,2097,0,Female,No,No,No,Short,Poor,Muscle,65+,1–4,0.0,1.0,Censored,Censored
+849,1,Lev,0,79,1,0,0,1.0,2.0,3,0,0,56,0,56,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+850,1,Lev,1,47,1,0,0,4.0,2.0,3,0,0,386,1,589,1,Male,Yes,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+851,1,Obs,1,60,0,0,0,9.0,2.0,3,0,1,378,1,510,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+852,1,Lev,0,62,0,0,0,3.0,2.0,3,0,0,2250,0,2250,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+853,1,Obs,1,18,1,0,1,4.0,3.0,2,0,0,223,1,612,1,Male,Yes,No,Yes,Short,Poor,Muscle,<50,1–4,0.0,1.0,Recurrence event,Death
+854,1,Lev,0,75,0,0,0,5.0,2.0,3,0,1,2284,0,2284,0,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+855,1,Lev,0,56,0,0,0,3.0,1.0,3,0,0,1992,0,1992,0,Female,No,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+856,1,Lev+5FU,1,70,1,0,0,5.0,2.0,2,0,1,218,1,251,1,Male,Yes,No,No,Short,Moderate,Muscle,65+,5+,1.0,1.0,Recurrence event,Death
+857,1,Lev+5FU,0,54,0,0,0,3.0,,2,0,0,2070,0,2070,0,Female,No,No,No,Short,Missing,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+858,1,Obs,0,64,0,0,0,1.0,2.0,3,0,0,774,1,1209,1,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+859,1,Lev,0,63,0,0,0,1.0,2.0,3,0,0,2122,0,2122,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+860,1,Lev,0,52,1,0,0,2.0,1.0,3,0,0,2111,0,2111,0,Female,Yes,No,No,Short,Well,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+861,1,Lev+5FU,0,71,0,0,1,11.0,2.0,3,1,1,198,1,274,1,Female,No,No,Yes,Long,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+862,1,Lev+5FU,0,54,0,0,0,1.0,1.0,3,1,0,1032,1,1306,1,Female,No,No,No,Long,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+863,1,Lev,0,27,0,0,0,1.0,3.0,2,0,0,751,1,1325,1,Female,No,No,No,Short,Poor,Muscle,<50,1–4,0.0,1.0,Recurrence event,Death
+864,1,Obs,1,68,0,0,1,10.0,2.0,3,0,1,1968,0,1968,0,Male,No,No,Yes,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Censored
+865,1,Obs,0,49,0,0,0,2.0,2.0,3,0,0,131,1,753,1,Female,No,No,No,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+866,1,Obs,1,61,0,0,1,2.0,2.0,4,0,0,271,1,760,1,Male,No,No,Yes,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+867,1,Lev+5FU,1,40,0,0,0,16.0,2.0,3,0,1,1861,0,1861,0,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Censored,Censored
+868,1,Lev+5FU,1,38,0,0,0,3.0,1.0,3,0,0,616,1,1138,1,Male,No,No,No,Short,Well,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+869,1,Obs,0,56,0,0,0,2.0,2.0,2,0,0,2167,0,2167,0,Female,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Censored,Censored
+870,1,Lev+5FU,1,79,1,0,0,1.0,2.0,3,0,0,1743,1,1944,0,Male,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Censored
+871,1,Obs,0,55,0,0,0,13.0,3.0,3,0,1,85,1,372,1,Female,No,No,No,Short,Poor,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+872,1,Obs,0,59,0,0,0,1.0,2.0,1,1,0,1792,0,1792,0,Female,No,No,No,Long,Moderate,Submucosa,50–64,1–4,0.0,1.0,Censored,Censored
+873,1,Lev,1,36,0,0,1,4.0,2.0,3,0,0,458,1,986,1,Male,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Recurrence event,Death
+874,1,Lev+5FU,0,63,1,0,0,2.0,2.0,3,0,0,2378,0,2378,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+875,1,Obs,1,27,0,1,1,12.0,2.0,3,0,1,334,1,390,1,Male,No,Yes,Yes,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+876,1,Lev,0,66,0,0,1,2.0,2.0,2,1,0,356,1,642,1,Female,No,No,Yes,Long,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+877,1,Lev,1,63,0,0,0,3.0,2.0,3,0,0,1052,1,2345,0,Male,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+878,1,Lev,1,64,0,0,0,2.0,2.0,2,0,0,1114,1,2254,0,Male,No,No,No,Short,Moderate,Muscle,50–64,1–4,0.0,1.0,Recurrence event,Censored
+879,1,Obs,0,78,0,0,0,1.0,2.0,3,0,0,2118,0,2118,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+880,1,Lev+5FU,0,66,1,0,0,2.0,2.0,3,0,0,1831,0,1831,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+881,1,Obs,0,64,0,0,0,3.0,3.0,3,0,0,2167,0,2167,0,Female,No,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+882,1,Obs,1,68,0,0,0,2.0,2.0,3,0,0,1198,0,1198,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Death
+883,1,Lev+5FU,1,35,0,0,1,2.0,2.0,3,0,0,2050,0,2050,0,Male,No,No,Yes,Short,Moderate,Serosa,<50,1–4,0.0,1.0,Censored,Censored
+884,1,Lev+5FU,1,64,0,0,1,2.0,3.0,3,0,0,116,1,271,1,Male,No,No,Yes,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+885,1,Lev,0,60,0,0,0,2.0,2.0,2,1,0,181,1,2138,0,Female,No,No,No,Long,Moderate,Muscle,50–64,1–4,0.0,1.0,Recurrence event,Censored
+886,1,Obs,0,55,1,0,0,1.0,2.0,3,0,0,1891,0,1891,0,Female,Yes,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+887,1,Obs,1,39,0,0,0,6.0,2.0,3,0,1,344,1,1313,1,Male,No,No,No,Short,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+888,1,Lev+5FU,1,67,0,0,0,3.0,2.0,3,1,0,1853,0,1853,0,Male,No,No,No,Long,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+889,1,Lev,1,55,1,0,0,3.0,3.0,3,0,0,2130,0,2130,0,Male,Yes,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+890,1,Lev,1,61,0,0,0,8.0,2.0,3,0,1,100,1,150,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+891,1,Lev,0,67,0,0,0,6.0,2.0,3,0,1,91,1,759,1,Female,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+892,1,Lev,1,62,0,0,0,1.0,2.0,3,1,0,2100,0,2100,0,Male,No,No,No,Long,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+893,1,Lev+5FU,0,52,0,0,0,4.0,2.0,3,0,0,602,1,2101,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Censored
+894,1,Lev,1,80,0,0,0,1.0,2.0,3,0,0,883,1,942,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+895,1,Obs,0,51,0,0,0,11.0,2.0,3,0,1,1823,0,1823,0,Female,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Censored,Censored
+896,1,Obs,1,74,0,0,0,1.0,3.0,1,1,0,665,0,665,1,Male,No,No,No,Long,Poor,Submucosa,65+,1–4,0.0,1.0,Censored,Death
+897,1,Obs,1,70,1,1,1,4.0,2.0,3,0,0,1057,1,1656,1,Male,Yes,Yes,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+898,1,Lev+5FU,1,73,0,0,0,4.0,2.0,3,0,0,1969,0,1969,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+899,1,Lev,0,56,0,0,0,3.0,3.0,4,0,0,2190,0,2190,0,Female,No,No,No,Short,Poor,Contiguous structures,50–64,1–4,0.0,1.0,Censored,Censored
+900,1,Obs,0,70,1,0,0,15.0,2.0,3,0,1,230,1,576,1,Female,Yes,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+901,1,Lev,1,68,0,0,0,12.0,2.0,3,0,1,1103,0,1103,1,Male,No,No,No,Short,Moderate,Serosa,65+,5+,1.0,1.0,Censored,Death
+902,1,Lev,1,51,0,0,1,2.0,3.0,3,1,0,513,1,1046,1,Male,No,No,Yes,Long,Poor,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+903,1,Lev+5FU,0,56,0,0,0,3.0,2.0,3,0,0,1929,0,1929,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+904,1,Obs,1,71,0,0,0,10.0,1.0,3,0,1,94,1,125,1,Male,No,No,No,Short,Well,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+905,1,Obs,0,63,0,0,0,2.0,1.0,3,1,0,167,1,187,1,Female,No,No,No,Long,Well,Serosa,50–64,1–4,0.0,1.0,Recurrence event,Death
+906,1,Lev,1,82,0,0,0,3.0,2.0,3,0,0,922,1,939,1,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+907,1,Obs,0,68,0,0,0,12.0,3.0,3,1,1,887,0,887,1,Female,No,No,No,Long,Poor,Serosa,65+,5+,1.0,1.0,Censored,Death
+908,1,Obs,0,55,0,0,0,2.0,2.0,3,0,0,1803,0,1803,0,Female,No,No,No,Short,Moderate,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+909,1,Lev+5FU,1,71,0,0,0,1.0,2.0,3,0,0,2018,0,2018,0,Male,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+910,1,Lev,0,68,0,0,1,12.0,2.0,3,0,1,1275,1,1509,1,Female,No,No,Yes,Short,Moderate,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+911,1,Lev,1,60,0,0,0,13.0,2.0,3,0,1,274,1,314,1,Male,No,No,No,Short,Moderate,Serosa,50–64,5+,1.0,1.0,Recurrence event,Death
+912,1,Lev,1,72,0,0,0,3.0,1.0,3,1,0,1971,0,1971,0,Male,No,No,No,Long,Well,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+913,1,Lev+5FU,1,69,1,1,1,3.0,2.0,3,0,0,1827,0,1827,0,Male,Yes,Yes,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+914,1,Obs,0,46,1,0,0,3.0,2.0,2,0,0,99,1,1079,1,Female,Yes,No,No,Short,Moderate,Muscle,<50,1–4,0.0,1.0,Recurrence event,Death
+915,1,Lev,0,42,0,0,0,6.0,1.0,3,0,1,2114,0,2114,0,Female,No,No,No,Short,Well,Serosa,<50,5+,1.0,1.0,Censored,Censored
+916,1,Obs,0,37,0,0,0,8.0,2.0,3,1,1,438,1,1262,1,Female,No,No,No,Long,Moderate,Serosa,<50,5+,1.0,1.0,Recurrence event,Death
+917,1,Obs,0,71,0,0,0,5.0,3.0,3,0,1,122,1,259,1,Female,No,No,No,Short,Poor,Serosa,65+,5+,1.0,1.0,Recurrence event,Death
+918,1,Lev,1,50,0,0,0,7.0,2.0,2,0,1,78,1,323,1,Male,No,No,No,Short,Moderate,Muscle,50–64,5+,1.0,1.0,Recurrence event,Death
+919,1,Lev,0,70,1,0,1,1.0,2.0,2,0,0,532,1,678,1,Female,Yes,No,Yes,Short,Moderate,Muscle,65+,1–4,0.0,1.0,Recurrence event,Death
+920,1,Lev+5FU,0,70,0,0,1,5.0,2.0,2,0,1,1827,0,1827,0,Female,No,No,Yes,Short,Moderate,Muscle,65+,5+,1.0,1.0,Censored,Censored
+921,1,Lev,1,58,1,0,0,3.0,2.0,4,0,0,476,1,1399,1,Male,Yes,No,No,Short,Moderate,Contiguous structures,50–64,1–4,0.0,1.0,Recurrence event,Death
+922,1,Lev+5FU,0,70,0,0,0,1.0,2.0,3,0,0,329,1,1022,1,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+923,1,Lev+5FU,1,55,1,0,0,2.0,3.0,3,0,0,2240,0,2240,0,Male,Yes,No,No,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+924,1,Obs,1,64,1,0,1,2.0,3.0,3,0,0,2158,0,2158,0,Male,Yes,No,Yes,Short,Poor,Serosa,50–64,1–4,0.0,1.0,Censored,Censored
+925,1,Lev+5FU,1,71,0,0,1,4.0,2.0,3,0,0,1875,0,1875,0,Male,No,No,Yes,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+926,1,Lev,0,72,0,0,0,1.0,2.0,3,0,0,2154,0,2154,0,Female,No,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored
+927,1,Lev,1,76,0,0,1,1.0,3.0,3,0,0,851,1,1018,1,Male,No,No,Yes,Short,Poor,Serosa,65+,1–4,0.0,1.0,Recurrence event,Death
+928,1,Lev+5FU,0,48,1,0,0,4.0,2.0,3,1,1,2072,0,2072,0,Female,Yes,No,No,Long,Moderate,Serosa,<50,1–4,0.0,0.0,Censored,Censored
+929,1,Lev,0,66,1,0,0,1.0,2.0,3,0,0,1820,0,1820,0,Female,Yes,No,No,Short,Moderate,Serosa,65+,1–4,0.0,1.0,Censored,Censored

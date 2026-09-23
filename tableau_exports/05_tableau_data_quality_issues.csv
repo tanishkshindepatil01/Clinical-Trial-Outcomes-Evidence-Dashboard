@@ -1,0 +1,4 @@
+issue,count,denominator,pct,note
+nodes_missing,18,929,0.0193756727664155,Missing positive-node count
+differ_missing,23,929,0.024757804090419805,Missing tumour differentiation
+node4_nodes_inconsistency,12,911,0.013172338090010977,Supplied node4 differs from derived nodes > 4; retained as source-data issue

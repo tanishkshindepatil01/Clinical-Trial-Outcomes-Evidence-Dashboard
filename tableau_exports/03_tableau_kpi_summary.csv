@@ -1,0 +1,10 @@
+metric,value,unit
+Participants,929.0,count
+Treatment groups,3.0,count
+Follow-up records,1858.0,count
+Recurrence events,468.0,count
+Deaths,452.0,count
+Median age,61.0,years
+Missing positive-node count,18.0,count
+Missing tumour differentiation,23.0,count
+nodes/node4 inconsistencies,12.0,count
